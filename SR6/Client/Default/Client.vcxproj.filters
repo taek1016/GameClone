@@ -1,0 +1,723 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="98.헤더">
+      <UniqueIdentifier>{662ca537-4144-4e7a-8560-357c4ea95626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.기타">
+      <UniqueIdentifier>{3d1e0c74-4e53-4adc-b2e1-3ac50c4dc08a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.기타\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="99.기타\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="99.기타\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="00.메인 어플">
+      <UniqueIdentifier>{3ee7822a-bbe8-41a8-9f6e-944aa2dd94ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.씬 구조">
+      <UniqueIdentifier>{97b1ce46-5dd7-467d-a38a-e51b00ddcbe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.씬 구조\00.로고">
+      <UniqueIdentifier>{27f35bd4-1bd7-4e29-a5ee-0f1bde8ff21b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.로딩 쓰레드">
+      <UniqueIdentifier>{fd3999e0-76a9-42c8-8a41-6bdfbde56977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.컴포넌트">
+      <UniqueIdentifier>{1505181a-2b3a-44ca-a78d-6d0916618c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.컴포넌트\00.컨트롤러">
+      <UniqueIdentifier>{e2113d9d-eb8e-4b55-8df1-c0dd37cceab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.컴포넌트\00.컨트롤러\01.플레이어">
+      <UniqueIdentifier>{6a1c0631-3d8e-4444-89f5-5cfa480896bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.컴포넌트\00.컨트롤러\02.몬스터">
+      <UniqueIdentifier>{90a6576e-4dbd-4652-abff-6da471d6188f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.카메라">
+      <UniqueIdentifier>{23cf315a-531b-4d72-a057-f1685233ebaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.카메라\00.스태틱 카메라">
+      <UniqueIdentifier>{1c524d30-8dec-4fe1-acdb-2d1d4575edb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.카메라\01.다이나믹 카메라">
+      <UniqueIdentifier>{d4859a99-9a94-4931-a71a-710d47d52889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.카메라\02.1인칭 카메라">
+      <UniqueIdentifier>{a903ae58-da3e-4b57-97b7-0b3928e31bab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.마우스">
+      <UniqueIdentifier>{542f1d2f-f7d8-4382-a8f3-d3ff8c104a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.마우스\01.인벤토리 마우스">
+      <UniqueIdentifier>{7dd79fbd-2eec-4ce5-b026-c656d2b394ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.마우스\00.필드 마우스">
+      <UniqueIdentifier>{f1086882-9a97-4ec1-b668-536f552ef126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.플레이어">
+      <UniqueIdentifier>{118e12d1-7787-4c8a-814a-6cad738c60d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.몬스터">
+      <UniqueIdentifier>{aaf605c4-9af7-4bd9-8d57-11b5050f2741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.몬스터\00.몬스터 기본">
+      <UniqueIdentifier>{9e676071-aace-45d7-bc4d-141d4f951d1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.몬스터\01.좀비">
+      <UniqueIdentifier>{ad82ec0f-d8b8-4842-b774-1218b3ebd333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.몬스터\02.늑대">
+      <UniqueIdentifier>{95d2c16e-cb29-4d7b-a60a-4565c3acef4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09.오브젝트">
+      <UniqueIdentifier>{81d9871e-0cde-4c93-8b9f-79710fb92728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10.지형">
+      <UniqueIdentifier>{f60273f9-a9df-4b20-b55b-57fc9303cf87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12.UI">
+      <UniqueIdentifier>{87776b69-1174-40de-8103-7fe8e1b46d13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11.총알">
+      <UniqueIdentifier>{88b0820a-244a-4276-939b-7bf27e913ee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.아이템">
+      <UniqueIdentifier>{0b3724dd-ab7b-4b5d-b9ec-5487f8b9f18a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.아이템\00. 무기">
+      <UniqueIdentifier>{292b1272-1205-4a04-bb93-b19c8cb080a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.아이템\01. 방어구">
+      <UniqueIdentifier>{df56ce69-0b1b-4038-bfa6-e7ad550f0612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.아이템\02. 소비">
+      <UniqueIdentifier>{643b3f0c-ef6d-4efa-b903-321f0ec252f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.아이템\03. 설치">
+      <UniqueIdentifier>{42327897-34d3-43e3-89db-46477b38e5f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.아이템\04. 재료">
+      <UniqueIdentifier>{bba28b73-b21f-464e-9bed-f21af4fcf965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.아이템\00. 무기\00.총기">
+      <UniqueIdentifier>{8aa11ffa-9cf1-41da-9a48-a88e7bf2c2f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="13.인벤토리">
+      <UniqueIdentifier>{30816286-f6e4-4063-9607-688081b21c34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="13.인벤토리\00.인벤토리">
+      <UniqueIdentifier>{34183864-5558-4952-8bb8-44eee3ca01a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="13.인벤토리\01.인벤토리 슬롯">
+      <UniqueIdentifier>{ac4c8326-0d25-4518-86d9-4554174f57d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.컴포넌트\01.애니메이션">
+      <UniqueIdentifier>{898e9bad-7957-429e-bc35-de38ac9c25da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.컴포넌트\01.애니메이션\00.애니메이션 노드">
+      <UniqueIdentifier>{74e6af43-5f54-480e-a1e8-334b9413ae44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.컴포넌트\01.애니메이션\01.애니메이션">
+      <UniqueIdentifier>{5732cd7d-3162-4a1e-993f-6f36b1758ba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.컴포넌트\01.애니메이션\02.애니메이터">
+      <UniqueIdentifier>{3299deba-960e-443d-8f23-fa9bed52c3c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.컴포넌트\02.바디">
+      <UniqueIdentifier>{a785fcbb-3a39-4325-ad6a-03e1e615c153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="14.게임오브젝트">
+      <UniqueIdentifier>{247ded99-ccca-4cc0-9a89-41450aed3ada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.씬 구조\02.스테이지">
+      <UniqueIdentifier>{37408c0c-15b6-436f-a7fc-9eb539dbfb80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.씬 구조\01.타이틀">
+      <UniqueIdentifier>{1a7395e1-f031-451a-ace4-af9da4761927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="15.버튼">
+      <UniqueIdentifier>{d63c96cf-efa8-4c9e-a8c7-8113fc508b7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.아이템\00. 무기\01.전기톱">
+      <UniqueIdentifier>{0c78041f-d894-42e5-8638-1b891b486706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.아이템\00. 무기\00.총기\00.라이플">
+      <UniqueIdentifier>{3ca4bf30-8ba1-40cc-8674-69ab07c76840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.아이템\00. 무기\00.총기\01.샷건">
+      <UniqueIdentifier>{8bf591e6-85d4-4547-9e34-7bbf53d356d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="16.크래프팅">
+      <UniqueIdentifier>{206813f5-8d4a-4fa9-9467-e8386329d222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="16.크래프팅\00.매니저">
+      <UniqueIdentifier>{2c29368d-c25d-459d-bbeb-b9f675413bda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="16.크래프팅\01.크래프팅">
+      <UniqueIdentifier>{045a278c-708f-4434-a20f-f823da7609df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08.아이템\02. 소비\00.회복포션">
+      <UniqueIdentifier>{307477b3-c975-42ad-96c3-953e7ac8fff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09.오브젝트\00.나무">
+      <UniqueIdentifier>{f7879e2a-8e10-4d79-926e-228ca22d626e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09.오브젝트\01.철광">
+      <UniqueIdentifier>{dc0e7578-f28f-4e53-95ae-42e5e4ded12b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="17.스카이 박스">
+      <UniqueIdentifier>{bb6f55f7-dd01-4b69-bb33-0e18fc978bb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12.UI\00.UI매니저">
+      <UniqueIdentifier>{d0ff91c0-6bec-410e-b645-f91667f71604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12.UI\02.HP 바">
+      <UniqueIdentifier>{2f2dbd2b-6044-4d41-a31c-f7a1f58b83c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12.UI\01.UI 베이스">
+      <UniqueIdentifier>{d26e63e2-c529-4afd-8f54-bb756614d30a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="13.인벤토리\02.인벤토리 재료슬롯">
+      <UniqueIdentifier>{c794e1e7-9324-45da-9405-9ec5209b1d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="13.인벤토리\03.인벤토리 설치 슬롯">
+      <UniqueIdentifier>{7ec26169-04f9-42a6-9073-8b5290fa50f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="18.이펙트">
+      <UniqueIdentifier>{41ee84ac-3c80-4a3b-b513-6d266022121e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="18.이펙트\00.이펙트 기본">
+      <UniqueIdentifier>{2ea5ecd5-2a18-405d-b105-f56b6165fee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="18.이펙트\01.피 이펙트">
+      <UniqueIdentifier>{310e3b89-f120-4744-9f11-769c5e8aa356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="18.이펙트\02.총 파티클">
+      <UniqueIdentifier>{57035ef9-46b4-46ab-8ea0-e6237ac590f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="16.크래프팅\02.크래프팅 UI">
+      <UniqueIdentifier>{fb442ffb-c85d-4ad3-81c6-1ab8bbc531f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="19.백그라운드">
+      <UniqueIdentifier>{2282026a-89b6-44ed-a0ad-6fbc99c72d16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.설치 아이템">
+      <UniqueIdentifier>{fb2c70ae-f770-40d4-b97b-d7762fcb1690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.설치 아이템\00.피커블 아이템">
+      <UniqueIdentifier>{b8c4219a-1931-420b-a275-a3e1a9b24e44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.설치 아이템\01.바리케이드">
+      <UniqueIdentifier>{f76c52b9-738e-41d8-995e-a54b26a1a52d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.로딩 쓰레드\00.로딩 쓰레드">
+      <UniqueIdentifier>{a170c458-3aca-4116-bed3-2f7985b0f49f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.로딩 쓰레드\01.로딩 바">
+      <UniqueIdentifier>{5de2af04-465b-4cba-91c4-a4f34d4987b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12.UI\03.타이틀 글자">
+      <UniqueIdentifier>{68a54683-eaf4-4b19-8f0d-c45df56f5308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="16.크래프팅\03.크래프팅 폰트">
+      <UniqueIdentifier>{a01aa89c-cd2a-4231-831d-9e92e55e431e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.몬스터\03.보스 좀비">
+      <UniqueIdentifier>{371fa986-448f-4d9c-89da-ca239dcebb6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.설치 아이템\02.터렛">
+      <UniqueIdentifier>{434eaf7f-2620-44a2-bc6d-b560e3b1b1cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="21.이벤트">
+      <UniqueIdentifier>{5f034dea-ac28-4fd5-b7e7-a7c9b5007e84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="21.이벤트\00.이벤트 매니저">
+      <UniqueIdentifier>{70cb51d5-a3fb-4e8c-b70d-6927aeac25c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="21.이벤트\01.이벤트">
+      <UniqueIdentifier>{bd2e9db0-7370-4c87-b173-af70c2d6f850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.컴포넌트\00.컨트롤러\03.보스 컨트롤러">
+      <UniqueIdentifier>{8f5c61c4-9603-4807-ad2c-1367de92cbe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="18.이펙트\03.토">
+      <UniqueIdentifier>{f89f7c28-0757-4e88-9e4b-bb92e32f98c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="18.이펙트\04.파편">
+      <UniqueIdentifier>{8d941c8f-bbb4-4df1-9f84-d82f524d89d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.엔진 엔트리">
+      <UniqueIdentifier>{38d7356c-8813-4306-8e0c-2df1b7f471fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.엔진 엔트리\00.엔진 엔트리">
+      <UniqueIdentifier>{1ef321a4-8abc-47bd-bf4b-80900bc8e75f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.엔진 엔트리\01.컴포넌트 매니저">
+      <UniqueIdentifier>{3eec6aa5-6925-48f7-b6ed-3a50690f6ca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.엔진 엔트리\02.피킹 매니저">
+      <UniqueIdentifier>{b2c4a7f8-e2d6-43a7-b1e4-49bd8574534c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.엔진 엔트리\03.사운드 매니저">
+      <UniqueIdentifier>{13cf6651-5bf7-474c-98d5-e798f77bfa93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12.UI\04.히트 박스">
+      <UniqueIdentifier>{ca176721-1f65-4104-bf05-1db551547251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="18.이펙트\05.폭죽">
+      <UniqueIdentifier>{0240e51c-611f-4684-9152-7d0c9fd2a9c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>99.기타\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.기타\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>99.기타\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98.헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Macros\Macros_L.h">
+      <Filter>98.헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Macros\Define.h">
+      <Filter>98.헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Macros\Macros.h">
+      <Filter>98.헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Macros\Macros_C.h">
+      <Filter>98.헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Macros\Macros_K.h">
+      <Filter>98.헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Macros\Enum.h">
+      <Filter>98.헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Macros\Typedef.h">
+      <Filter>98.헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MainApp.h">
+      <Filter>00.메인 어플</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Scene\Stage.h">
+      <Filter>01.씬 구조\02.스테이지</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Scene\Logo.h">
+      <Filter>01.씬 구조\00.로고</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\EngineEntry.h">
+      <Filter>97.엔진 엔트리\00.엔진 엔트리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Macros\Function.h">
+      <Filter>98.헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SceneObject\Player.h">
+      <Filter>06.플레이어</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Component\PlayerController.h">
+      <Filter>03.컴포넌트\00.컨트롤러\01.플레이어</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Component\StaticCamera.h">
+      <Filter>04.카메라\00.스태틱 카메라</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Component\DynamicCamera.h">
+      <Filter>04.카메라\01.다이나믹 카메라</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SceneObject\Terrain.h">
+      <Filter>10.지형</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Component\PersonCamera.h">
+      <Filter>04.카메라\02.1인칭 카메라</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Component\InventoryMouse.h">
+      <Filter>05.마우스\01.인벤토리 마우스</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Component\FieldMouse.h">
+      <Filter>05.마우스\00.필드 마우스</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SceneObject\MonsterBase.h">
+      <Filter>07.몬스터\00.몬스터 기본</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SceneObject\Zombie.h">
+      <Filter>07.몬스터\01.좀비</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SceneObject\Wolf.h">
+      <Filter>07.몬스터\02.늑대</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Component\MonsterController.h">
+      <Filter>03.컴포넌트\00.컨트롤러\02.몬스터</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SceneObject\Bullet.h">
+      <Filter>11.총알</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Item\Rifle.h">
+      <Filter>08.아이템\00. 무기\00.총기\00.라이플</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Item\Inventory.h">
+      <Filter>13.인벤토리\00.인벤토리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Component\Animation.h">
+      <Filter>03.컴포넌트\01.애니메이션\01.애니메이션</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Component\AnimationNode.h">
+      <Filter>03.컴포넌트\01.애니메이션\00.애니메이션 노드</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Component\Animator.h">
+      <Filter>03.컴포넌트\01.애니메이션\02.애니메이터</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ComponentMgr.h">
+      <Filter>97.엔진 엔트리\01.컴포넌트 매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Component\Body.h">
+      <Filter>03.컴포넌트\02.바디</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\InGameObject.h">
+      <Filter>14.게임오브젝트</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Scene\Title.h">
+      <Filter>01.씬 구조\01.타이틀</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MyButton.h">
+      <Filter>15.버튼</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Item\ChainSaw.h">
+      <Filter>08.아이템\00. 무기\01.전기톱</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Item\Crafting.h">
+      <Filter>16.크래프팅\01.크래프팅</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Item\CraftingMgr.h">
+      <Filter>16.크래프팅\00.매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Item\Portion.h">
+      <Filter>08.아이템\02. 소비\00.회복포션</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SceneObject\Tree.h">
+      <Filter>09.오브젝트\00.나무</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SceneObject\Iron.h">
+      <Filter>09.오브젝트\01.철광</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SkyBox.h">
+      <Filter>17.스카이 박스</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\UI\HpBar.h">
+      <Filter>12.UI\02.HP 바</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\UI\UIMgr.h">
+      <Filter>12.UI\00.UI매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\UI\UIBase.h">
+      <Filter>12.UI\01.UI 베이스</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Item\WeaponSlot.h">
+      <Filter>13.인벤토리\01.인벤토리 슬롯</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Item\MaterialSlot.h">
+      <Filter>13.인벤토리\02.인벤토리 재료슬롯</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Item\InstallSlot.h">
+      <Filter>13.인벤토리\03.인벤토리 설치 슬롯</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Effect\Particle.h">
+      <Filter>18.이펙트\00.이펙트 기본</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Effect\GunParticle.h">
+      <Filter>18.이펙트\02.총 파티클</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Effect\BloodParticle.h">
+      <Filter>18.이펙트\01.피 이펙트</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Item\CraftingUI.h">
+      <Filter>16.크래프팅\02.크래프팅 UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\LogoObject\BackGround.h">
+      <Filter>19.백그라운드</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SceneObject\Barricade.h">
+      <Filter>20.설치 아이템\01.바리케이드</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SceneObject\PickableObject.h">
+      <Filter>20.설치 아이템\00.피커블 아이템</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SceneObject\PickingMgr.h">
+      <Filter>97.엔진 엔트리\02.피킹 매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SoundMgr.h">
+      <Filter>97.엔진 엔트리\03.사운드 매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Item\ShotGun.h">
+      <Filter>08.아이템\00. 무기\00.총기\01.샷건</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\LoadingThread.h">
+      <Filter>02.로딩 쓰레드\00.로딩 쓰레드</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\LogoObject\LoadingBar.h">
+      <Filter>02.로딩 쓰레드\01.로딩 바</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\LogoObject\TitleTexture.h">
+      <Filter>12.UI\03.타이틀 글자</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Item\CraftingFont.h">
+      <Filter>16.크래프팅\03.크래프팅 폰트</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SceneObject\BossZombie.h">
+      <Filter>07.몬스터\03.보스 좀비</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SceneObject\Turret.h">
+      <Filter>20.설치 아이템\02.터렛</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Event\SingleEvent.h">
+      <Filter>21.이벤트\01.이벤트</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Event\EventMgr.h">
+      <Filter>21.이벤트\00.이벤트 매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Component\BossController.h">
+      <Filter>03.컴포넌트\00.컨트롤러\03.보스 컨트롤러</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Effect\Vomit.h">
+      <Filter>18.이펙트\03.토</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Effect\Fragment.h">
+      <Filter>18.이펙트\04.파편</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\UI\HitBox.h">
+      <Filter>12.UI\04.히트 박스</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Effect\FireWork.h">
+      <Filter>18.이펙트\05.폭죽</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.기타\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>99.기타\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MainApp.cpp">
+      <Filter>00.메인 어플</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Scene\Stage.cpp">
+      <Filter>01.씬 구조\02.스테이지</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Scene\Logo.cpp">
+      <Filter>01.씬 구조\00.로고</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\EngineEntry.cpp">
+      <Filter>97.엔진 엔트리\00.엔진 엔트리</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SceneObject\Player.cpp">
+      <Filter>06.플레이어</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Component\PlayerController.cpp">
+      <Filter>03.컴포넌트\00.컨트롤러\01.플레이어</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Component\StaticCamera.cpp">
+      <Filter>04.카메라\00.스태틱 카메라</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Component\DynamicCamera.cpp">
+      <Filter>04.카메라\01.다이나믹 카메라</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SceneObject\Terrain.cpp">
+      <Filter>10.지형</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Component\PersonCamera.cpp">
+      <Filter>04.카메라\02.1인칭 카메라</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Component\InventoryMouse.cpp">
+      <Filter>05.마우스\01.인벤토리 마우스</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Component\FieldMouse.cpp">
+      <Filter>05.마우스\00.필드 마우스</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SceneObject\MonsterBase.cpp">
+      <Filter>07.몬스터\00.몬스터 기본</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SceneObject\Zombie.cpp">
+      <Filter>07.몬스터\01.좀비</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SceneObject\Wolf.cpp">
+      <Filter>07.몬스터\02.늑대</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Component\MonsterController.cpp">
+      <Filter>03.컴포넌트\00.컨트롤러\02.몬스터</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SceneObject\Bullet.cpp">
+      <Filter>11.총알</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Item\Rifle.cpp">
+      <Filter>08.아이템\00. 무기\00.총기\00.라이플</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Item\Inventory.cpp">
+      <Filter>13.인벤토리\00.인벤토리</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Component\Animation.cpp">
+      <Filter>03.컴포넌트\01.애니메이션\01.애니메이션</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Component\AnimationNode.cpp">
+      <Filter>03.컴포넌트\01.애니메이션\00.애니메이션 노드</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Component\Animator.cpp">
+      <Filter>03.컴포넌트\01.애니메이션\02.애니메이터</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ComponentMgr.cpp">
+      <Filter>97.엔진 엔트리\01.컴포넌트 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Component\Body.cpp">
+      <Filter>03.컴포넌트\02.바디</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\InGameObject.cpp">
+      <Filter>14.게임오브젝트</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Scene\Title.cpp">
+      <Filter>01.씬 구조\01.타이틀</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MyButton.cpp">
+      <Filter>15.버튼</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Item\ChainSaw.cpp">
+      <Filter>08.아이템\00. 무기\01.전기톱</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Item\Crafting.cpp">
+      <Filter>16.크래프팅\01.크래프팅</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Item\CraftingMgr.cpp">
+      <Filter>16.크래프팅\00.매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Item\Portion.cpp">
+      <Filter>08.아이템\02. 소비\00.회복포션</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SceneObject\Tree.cpp">
+      <Filter>09.오브젝트\00.나무</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SceneObject\Iron.cpp">
+      <Filter>09.오브젝트\01.철광</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SkyBox.cpp">
+      <Filter>17.스카이 박스</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UI\HpBar.cpp">
+      <Filter>12.UI\02.HP 바</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UI\UIMgr.cpp">
+      <Filter>12.UI\00.UI매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UI\UIBase.cpp">
+      <Filter>12.UI\01.UI 베이스</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Item\WeaponSlot.cpp">
+      <Filter>13.인벤토리\01.인벤토리 슬롯</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Item\MaterialSlot.cpp">
+      <Filter>13.인벤토리\02.인벤토리 재료슬롯</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Item\InstallSlot.cpp">
+      <Filter>13.인벤토리\03.인벤토리 설치 슬롯</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Effect\Particle.cpp">
+      <Filter>18.이펙트\00.이펙트 기본</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Effect\GunParticle.cpp">
+      <Filter>18.이펙트\02.총 파티클</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Effect\BloodParticle.cpp">
+      <Filter>18.이펙트\01.피 이펙트</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Item\CraftingUI.cpp">
+      <Filter>16.크래프팅\02.크래프팅 UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LogoObject\BackGround.cpp">
+      <Filter>19.백그라운드</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SceneObject\Barricade.cpp">
+      <Filter>20.설치 아이템\01.바리케이드</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SceneObject\PickableObject.cpp">
+      <Filter>20.설치 아이템\00.피커블 아이템</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SceneObject\PickingMgr.cpp">
+      <Filter>97.엔진 엔트리\02.피킹 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SoundMgr.cpp">
+      <Filter>97.엔진 엔트리\03.사운드 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Item\ShotGun.cpp">
+      <Filter>08.아이템\00. 무기\00.총기\01.샷건</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LoadingThread.cpp">
+      <Filter>02.로딩 쓰레드\00.로딩 쓰레드</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LogoObject\LoadingBar.cpp">
+      <Filter>02.로딩 쓰레드\01.로딩 바</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LogoObject\TitleTexture.cpp">
+      <Filter>12.UI\03.타이틀 글자</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Item\CraftingFont.cpp">
+      <Filter>16.크래프팅\03.크래프팅 폰트</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SceneObject\BossZombie.cpp">
+      <Filter>07.몬스터\03.보스 좀비</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SceneObject\Turret.cpp">
+      <Filter>20.설치 아이템\02.터렛</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Event\SingleEvent.cpp">
+      <Filter>21.이벤트\01.이벤트</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Event\EventMgr.cpp">
+      <Filter>21.이벤트\00.이벤트 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Component\BossController.cpp">
+      <Filter>03.컴포넌트\00.컨트롤러\03.보스 컨트롤러</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Effect\Vomit.cpp">
+      <Filter>18.이펙트\03.토</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Effect\Fragment.cpp">
+      <Filter>18.이펙트\04.파편</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UI\HitBox.cpp">
+      <Filter>12.UI\04.히트 박스</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Effect\FireWork.cpp">
+      <Filter>18.이펙트\05.폭죽</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99.기타\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>99.기타\리소스 파일</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>99.기타\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.기타</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

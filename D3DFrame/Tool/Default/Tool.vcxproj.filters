@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99. Header">
+      <UniqueIdentifier>{27bae2c0-9705-4dd5-97bb-511108ec9121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Header\00. Header">
+      <UniqueIdentifier>{bc084934-11ba-43ed-b07a-9a915d0f6790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Header\02. etc">
+      <UniqueIdentifier>{90373829-de77-4dc7-aa86-6f8f30a9e920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Header\02. etc\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="99. Header\02. etc\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="99. Header\02. etc\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="00. WinApp">
+      <UniqueIdentifier>{283b367c-b5ba-42fb-9a8a-431dec1cb286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Document">
+      <UniqueIdentifier>{e6e711f5-0cd7-424a-9240-215047135141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ToolView">
+      <UniqueIdentifier>{aa43dbb2-9a21-4898-b85e-19354c0b848c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. FrameWnd">
+      <UniqueIdentifier>{cd8e2a95-54bd-4ec0-ab08-861cca17a618}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ToolView\00. ToolView">
+      <UniqueIdentifier>{ecaa4bb4-ab34-42c7-8b47-c899f8a74df1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ToolView\01. MyFormView">
+      <UniqueIdentifier>{100f9418-16a0-4627-b835-9490508df527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ToolView\02. TabDlg">
+      <UniqueIdentifier>{f13642f7-d6d8-45a1-bbe9-28d4a9356066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ToolView\02. TabDlg\00. TerrainTab">
+      <UniqueIdentifier>{866203e2-9834-4a29-aad6-52beb90a34a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ToolView\02. TabDlg\01. MeshTab">
+      <UniqueIdentifier>{3f315aff-7fc4-4d10-927c-53e4db681c1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ToolView\02. TabDlg\00. TerrainTab\00. TerrainTab">
+      <UniqueIdentifier>{8862db56-2e01-48d9-be3b-85b4f6f499c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Objects">
+      <UniqueIdentifier>{3b1e6ffa-a3c7-4e78-bcf7-41cc1c7775eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Objects\00. Terrain">
+      <UniqueIdentifier>{4c375c29-f114-4855-bba6-96fea7aac9b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Objects\00. Terrain\00. ToolTerrain">
+      <UniqueIdentifier>{dc361e03-5120-4143-83f2-a7cd048b3fa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Objects\00. Terrain\01. ToolTerrainTex">
+      <UniqueIdentifier>{5dd56c86-47fa-40c6-aca2-2195de39e1d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Header\01. Mgrs">
+      <UniqueIdentifier>{64381fab-4b00-40d8-b296-ba5dc5470a2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Header\01. Mgrs\00. EngineEntry">
+      <UniqueIdentifier>{199af66e-bf81-4ec0-bdab-22b1a754ed4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Header\01. Mgrs\01. ToolObjMgr">
+      <UniqueIdentifier>{a3dbb338-9630-4fe5-8a73-3a9d9943d95b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Objects\01. Camera">
+      <UniqueIdentifier>{e9ecbe75-83d6-4cd9-bc19-58c27f6db79f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Header\01. Mgrs\01. ToolObjMgr\00. ToolObjMgr">
+      <UniqueIdentifier>{a463f72a-ecd3-46aa-ac66-6b06e9efae8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Header\01. Mgrs\01. ToolObjMgr\01. ToolObjContainer">
+      <UniqueIdentifier>{325b5724-7f5a-416a-bdeb-b2ebe30df554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Header\01. Mgrs\02. ToolContainerMgr">
+      <UniqueIdentifier>{0d9e3f26-758c-445b-9d22-d6cfd166c9fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Header\01. Mgrs\03. LoadMgr">
+      <UniqueIdentifier>{50b2156b-8d62-4d6a-b3e9-6d19c7987d93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Objects\00. Terrain\02. NaviObject">
+      <UniqueIdentifier>{6f19d8a2-014c-450a-b617-2dffcd21bd29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Header\01. Mgrs\01. ToolObjMgr\02. ToolRenderer">
+      <UniqueIdentifier>{9de96424-b738-4c19-833d-a1ca5e0282f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Objects\00. Terrain\03. NaviCtrl">
+      <UniqueIdentifier>{2c1483e0-8e74-4d34-a244-43dd3cf02fa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ToolView\02. TabDlg\03. Event">
+      <UniqueIdentifier>{bc5307b6-0ed1-4f61-98a2-6861cfca5b31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ToolView\02. TabDlg\01. MeshTab\01. DynamicMeshTab">
+      <UniqueIdentifier>{fe82d31e-4e25-4cd3-8438-2f73207fc8cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ToolView\02. TabDlg\01. MeshTab\00. StaticMeshTab">
+      <UniqueIdentifier>{0b8a522f-cb19-4024-9934-bbf2b6f1f801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ToolView\02. TabDlg\01. MeshTab\00. StaticMeshTab\01. StaticMeshTool">
+      <UniqueIdentifier>{338a6052-7396-4641-af11-0e3bd090af78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ToolView\02. TabDlg\01. MeshTab\00. StaticMeshTab\00. StaticMeshTab">
+      <UniqueIdentifier>{8e0dfe3c-b710-4319-a4a5-b29fa273ac1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ToolView\02. TabDlg\01. MeshTab\01. DynamicMeshTab\00. DynamicMeshTab">
+      <UniqueIdentifier>{7a007c62-353c-4c04-9969-3196027d0a58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ToolView\02. TabDlg\01. MeshTab\01. DynamicMeshTab\02. DynamicObjControlTool">
+      <UniqueIdentifier>{1d80392b-b3e5-45c4-8a1d-86d4573b61d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ToolView\02. TabDlg\01. MeshTab\01. DynamicMeshTab\01. PrefabControlTool">
+      <UniqueIdentifier>{b7b74403-e8ff-4011-8163-e5d0194e7679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ToolView\02. TabDlg\02. Data">
+      <UniqueIdentifier>{a09f05d6-262b-45d1-86a5-77e8c2ee3f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ToolView\02. TabDlg\02. Data\00. DataTab">
+      <UniqueIdentifier>{80ffbab3-57ab-4922-87c3-4d90feb63e03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ToolView\02. TabDlg\02. Data\01. PathTool">
+      <UniqueIdentifier>{d4643d4c-6ea5-432e-90d3-23276f0ffe1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ToolView\02. TabDlg\00. TerrainTab\01. TerrainTool">
+      <UniqueIdentifier>{ad9f1d4a-aa6b-4b14-8c3e-c212c3c29628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ToolView\02. TabDlg\00. TerrainTab\02. TerrainMeshTool">
+      <UniqueIdentifier>{9e303ca9-599b-4188-b7ed-8edd1bd844b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Objects\02. ToolGameObject">
+      <UniqueIdentifier>{a1fe50bc-3635-437a-88c6-88258f2d8598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Objects\02. ToolGameObject\00. ToolGameObject">
+      <UniqueIdentifier>{43d198fa-2de2-446f-8252-bf145a23d094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Objects\02. ToolGameObject\03. ToolItem">
+      <UniqueIdentifier>{6fa098a3-c986-4707-92d0-f1c568a32376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Objects\02. ToolGameObject\01. ToolStaticObject">
+      <UniqueIdentifier>{492226ed-3ce4-43b7-8108-549ec54cfaf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Objects\02. ToolGameObject\01. ToolStaticObject\00. ToolStaticObjectCtrl">
+      <UniqueIdentifier>{4f1a49dd-93c7-41f2-b626-394d1e586407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Objects\02. ToolGameObject\01. ToolStaticObject\01. ToolStaticObject">
+      <UniqueIdentifier>{4f63beab-d5e1-41b7-a32d-a88a89e2342e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Objects\02. ToolGameObject\02. ToolDynamicObject">
+      <UniqueIdentifier>{43241b0b-6010-43f5-891d-8518a9eae9db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Objects\02. ToolGameObject\02. ToolDynamicObject\01. ToolPlayer">
+      <UniqueIdentifier>{a0fb0ce0-27d9-410c-b4fa-1a7f84bde64f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Objects\02. ToolGameObject\02. ToolDynamicObject\02. ToolMonster">
+      <UniqueIdentifier>{d1c74156-e7fa-4e55-8445-4c6b118a50da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Objects\02. ToolGameObject\02. ToolDynamicObject\00. ToolDynamicObject">
+      <UniqueIdentifier>{3f8fb681-5b19-4e1c-ace7-f3a60f100f2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Objects\03. ToolGuideAxis">
+      <UniqueIdentifier>{c1be61bf-ae7a-468a-a638-c6749f013d1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Objects\04. ZeroPointGuideLine">
+      <UniqueIdentifier>{57c3582e-d001-4a27-8264-f8e9652277a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Header\02. etc\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Header\02. etc\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99. Header\00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>02. FrameWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>00. WinApp</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolDoc.h">
+      <Filter>01. Document</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolView.h">
+      <Filter>03. ToolView\00. ToolView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\View\MyFormView.h">
+      <Filter>03. ToolView\01. MyFormView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\View\EffectTab.h">
+      <Filter>03. ToolView\02. TabDlg\03. Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\View\TerrainTab.h">
+      <Filter>03. ToolView\02. TabDlg\00. TerrainTab\00. TerrainTab</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Object\ToolTerrain.h">
+      <Filter>04. Objects\00. Terrain\00. ToolTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Object\ToolTerrainTex.h">
+      <Filter>04. Objects\00. Terrain\01. ToolTerrainTex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Tool\TerrainTool.h">
+      <Filter>03. ToolView\02. TabDlg\00. TerrainTab\01. TerrainTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\EngineEntry.h">
+      <Filter>99. Header\01. Mgrs\00. EngineEntry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Enum.h">
+      <Filter>99. Header\00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Define.h">
+      <Filter>99. Header\00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Object\ToolCamera.h">
+      <Filter>04. Objects\01. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ToolObjMgr.h">
+      <Filter>99. Header\01. Mgrs\01. ToolObjMgr\00. ToolObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ToolObjContainer.h">
+      <Filter>99. Header\01. Mgrs\01. ToolObjMgr\01. ToolObjContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ToolContainerMgr.h">
+      <Filter>99. Header\01. Mgrs\02. ToolContainerMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Object\NaviObject.h">
+      <Filter>04. Objects\00. Terrain\02. NaviObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ToolRenderer.h">
+      <Filter>99. Header\01. Mgrs\01. ToolObjMgr\02. ToolRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Object\ToolNaviCtrl.h">
+      <Filter>04. Objects\00. Terrain\03. NaviCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Object\ToolGuideAxis.h">
+      <Filter>04. Objects\03. ToolGuideAxis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\DataMgr.h">
+      <Filter>99. Header\01. Mgrs\03. LoadMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Tool\StaticMeshTool.h">
+      <Filter>03. ToolView\02. TabDlg\01. MeshTab\00. StaticMeshTab\01. StaticMeshTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Object\ToolGameObject.h">
+      <Filter>04. Objects\02. ToolGameObject\00. ToolGameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\View\StaticMeshTab.h">
+      <Filter>03. ToolView\02. TabDlg\01. MeshTab\00. StaticMeshTab\00. StaticMeshTab</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Object\ToolStaticObject.h">
+      <Filter>04. Objects\02. ToolGameObject\01. ToolStaticObject\01. ToolStaticObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Object\ToolStaticObjectCtrl.h">
+      <Filter>04. Objects\02. ToolGameObject\01. ToolStaticObject\00. ToolStaticObjectCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Object\ToolDynamicObject.h">
+      <Filter>04. Objects\02. ToolGameObject\02. ToolDynamicObject\00. ToolDynamicObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Object\ToolPlayer.h">
+      <Filter>04. Objects\02. ToolGameObject\02. ToolDynamicObject\01. ToolPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Object\ToolMonster.h">
+      <Filter>04. Objects\02. ToolGameObject\02. ToolDynamicObject\02. ToolMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\View\DyMeshTab.h">
+      <Filter>03. ToolView\02. TabDlg\01. MeshTab\01. DynamicMeshTab\00. DynamicMeshTab</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Object\GuideLine.h">
+      <Filter>04. Objects\04. ZeroPointGuideLine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\View\DynamicObjControlTool.h">
+      <Filter>03. ToolView\02. TabDlg\01. MeshTab\01. DynamicMeshTab\02. DynamicObjControlTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\View\PrefabDlg.h">
+      <Filter>03. ToolView\02. TabDlg\01. MeshTab\01. DynamicMeshTab\01. PrefabControlTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Tool\TerrainMeshTool.h">
+      <Filter>03. ToolView\02. TabDlg\00. TerrainTab\02. TerrainMeshTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\View\DataTab.h">
+      <Filter>03. ToolView\02. TabDlg\02. Data\00. DataTab</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Tool\PathTool.h">
+      <Filter>03. ToolView\02. TabDlg\02. Data\01. PathTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Tool\DynamicControlTool.h">
+      <Filter>99. Header\02. etc\헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99. Header\02. etc\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>02. FrameWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool.cpp">
+      <Filter>00. WinApp</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolDoc.cpp">
+      <Filter>01. Document</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolView.cpp">
+      <Filter>03. ToolView\00. ToolView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\View\MyFormView.cpp">
+      <Filter>03. ToolView\01. MyFormView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\View\EffectTab.cpp">
+      <Filter>03. ToolView\02. TabDlg\03. Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\View\TerrainTab.cpp">
+      <Filter>03. ToolView\02. TabDlg\00. TerrainTab\00. TerrainTab</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Object\ToolTerrain.cpp">
+      <Filter>04. Objects\00. Terrain\00. ToolTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Object\ToolTerrainTex.cpp">
+      <Filter>04. Objects\00. Terrain\01. ToolTerrainTex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Tool\TerrainTool.cpp">
+      <Filter>03. ToolView\02. TabDlg\00. TerrainTab\01. TerrainTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\EngineEntry.cpp">
+      <Filter>99. Header\01. Mgrs\00. EngineEntry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Object\ToolCamera.cpp">
+      <Filter>04. Objects\01. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ToolObjMgr.cpp">
+      <Filter>99. Header\01. Mgrs\01. ToolObjMgr\00. ToolObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ToolObjContainer.cpp">
+      <Filter>99. Header\01. Mgrs\01. ToolObjMgr\01. ToolObjContainer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ToolContainerMgr.cpp">
+      <Filter>99. Header\01. Mgrs\02. ToolContainerMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Object\NaviObject.cpp">
+      <Filter>04. Objects\00. Terrain\02. NaviObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ToolRenderer.cpp">
+      <Filter>99. Header\01. Mgrs\01. ToolObjMgr\02. ToolRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Object\ToolNaviCtrl.cpp">
+      <Filter>04. Objects\00. Terrain\03. NaviCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Object\ToolGuideAxis.cpp">
+      <Filter>04. Objects\03. ToolGuideAxis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DataMgr.cpp">
+      <Filter>99. Header\01. Mgrs\03. LoadMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Tool\StaticMeshTool.cpp">
+      <Filter>03. ToolView\02. TabDlg\01. MeshTab\00. StaticMeshTab\01. StaticMeshTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Object\ToolGameObject.cpp">
+      <Filter>04. Objects\02. ToolGameObject\00. ToolGameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\View\StaticMeshTab.cpp">
+      <Filter>03. ToolView\02. TabDlg\01. MeshTab\00. StaticMeshTab\00. StaticMeshTab</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Object\ToolStaticObject.cpp">
+      <Filter>04. Objects\02. ToolGameObject\01. ToolStaticObject\01. ToolStaticObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Object\ToolStaticObjectCtrl.cpp">
+      <Filter>04. Objects\02. ToolGameObject\01. ToolStaticObject\00. ToolStaticObjectCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Object\ToolDynamicObject.cpp">
+      <Filter>04. Objects\02. ToolGameObject\02. ToolDynamicObject\00. ToolDynamicObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Object\ToolPlayer.cpp">
+      <Filter>04. Objects\02. ToolGameObject\02. ToolDynamicObject\01. ToolPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Object\ToolMonster.cpp">
+      <Filter>04. Objects\02. ToolGameObject\02. ToolDynamicObject\02. ToolMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\View\DyMeshTab.cpp">
+      <Filter>03. ToolView\02. TabDlg\01. MeshTab\01. DynamicMeshTab\00. DynamicMeshTab</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Object\GuideLine.cpp">
+      <Filter>04. Objects\04. ZeroPointGuideLine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\View\DynamicObjControlTool.cpp">
+      <Filter>03. ToolView\02. TabDlg\01. MeshTab\01. DynamicMeshTab\02. DynamicObjControlTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\View\PrefabDlg.cpp">
+      <Filter>03. ToolView\02. TabDlg\01. MeshTab\01. DynamicMeshTab\01. PrefabControlTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Tool\TerrainMeshTool.cpp">
+      <Filter>03. ToolView\02. TabDlg\00. TerrainTab\02. TerrainMeshTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\View\DataTab.cpp">
+      <Filter>03. ToolView\02. TabDlg\02. Data\00. DataTab</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Tool\PathTool.cpp">
+      <Filter>03. ToolView\02. TabDlg\02. Data\01. PathTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Tool\DynamicControlTool.cpp">
+      <Filter>99. Header\02. etc\소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc">
+      <Filter>99. Header\02. etc\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tool.rc2">
+      <Filter>99. Header\02. etc\리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ToolDoc.ico">
+      <Filter>99. Header\02. etc\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Tool.ico">
+      <Filter>99. Header\02. etc\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99. Header\02. etc\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99. Header\02. etc</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

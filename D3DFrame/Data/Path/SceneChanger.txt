@@ -1,0 +1,4 @@
+LoadingBarFill|1|LoadingBarFill.png|..\..\Resources\SceneChanger\LoadingBar\
+LoadingBarFrame|1|LoadingBarFrame.png|..\..\Resources\SceneChanger\LoadingBar\
+BlackRockCaven|1|BlackRockCaven.png|..\..\Resources\SceneChanger\LoadingScreen\
+BlackWingRaid|1|BlackWingRaid.png|..\..\Resources\SceneChanger\LoadingScreen\

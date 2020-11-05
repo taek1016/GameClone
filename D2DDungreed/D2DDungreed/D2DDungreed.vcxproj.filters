@@ -1,0 +1,1083 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.필수파일">
+      <UniqueIdentifier>{a1c6ad6c-4a27-4a60-9d1c-1c3820b794ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.필수파일\00.엔트리 포인트">
+      <UniqueIdentifier>{47094a43-b073-4bc4-be90-c171d3f86db0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.필수파일\01.리소스 파일">
+      <UniqueIdentifier>{ff48f09c-0bd1-463a-b16d-47ef80a4d4a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.필수파일\02.미리 컴파일된 헤더">
+      <UniqueIdentifier>{ca0a9c16-6461-4455-b6f4-d875e3eb9c2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.필수파일\03.읽어">
+      <UniqueIdentifier>{aff87cf7-ecef-47d6-9b28-bfd9ef427458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.필수파일\04.윈도우">
+      <UniqueIdentifier>{5dcfae12-9570-40ea-8228-605864f48e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저">
+      <UniqueIdentifier>{1e561f9e-8e28-43c6-9c99-730a55ace17b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\99.싱글턴모음">
+      <UniqueIdentifier>{277244dc-cddc-4985-9ae0-e9eaf66507aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.메인 게임">
+      <UniqueIdentifier>{e055879c-cda9-4c00-824c-7f4c34e89c19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\00.시간 매니저">
+      <UniqueIdentifier>{bfaab9ce-85f6-4e8f-8257-83df6975b3b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\01.프레임 매니저">
+      <UniqueIdentifier>{65cc5afd-4861-4a24-a4a0-cf31dfddf9f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\02.장치 매니저">
+      <UniqueIdentifier>{58e316f0-5b1f-4209-8f37-3e71d443b52e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\03.키 매니저">
+      <UniqueIdentifier>{dffc42e4-8330-497e-9c3d-b6c295f53324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\04.수학 매니저">
+      <UniqueIdentifier>{d353b6ed-923f-444a-bcad-420fac44f176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\05.마우스 매니저">
+      <UniqueIdentifier>{f605eb87-68c8-40ec-8d4d-0af19a08b52d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\06.오브젝트 매니저">
+      <UniqueIdentifier>{766146bb-db95-4c0c-862f-0427661768e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\07.씬 매니저">
+      <UniqueIdentifier>{2fdc2ef4-8a11-4ea5-8ccc-f6b0faef409f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\08.텍스처 매니저">
+      <UniqueIdentifier>{0d953977-6d84-4e1b-b89f-548d996ad75b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\08.텍스처 매니저\00.텍스처">
+      <UniqueIdentifier>{bca6a94f-b898-4c36-8b90-8a843e7ae83d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\08.텍스처 매니저\99.텍스처 매니저">
+      <UniqueIdentifier>{c84e5971-906f-4701-b5e1-df892194f52c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\08.텍스처 매니저\00.텍스처\00. 텍스처">
+      <UniqueIdentifier>{92ced6ff-c70c-4d99-88b3-9e9b40f4cd6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\08.텍스처 매니저\00.텍스처\01.싱글 텍스처">
+      <UniqueIdentifier>{8f8077e6-a0de-4a49-aed3-ee3512a938e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\08.텍스처 매니저\00.텍스처\02.멀티 텍스처">
+      <UniqueIdentifier>{8d9b476b-cb3f-417b-9858-59abe091e920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\07.씬 매니저\00.씬 매니저">
+      <UniqueIdentifier>{ff38cc6e-b6e9-446c-8502-7bccea9ab9f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\07.씬 매니저\01.씬">
+      <UniqueIdentifier>{8e5c8417-ca58-4399-97be-6234c7cde0ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\07.씬 매니저\01.씬\00.씬">
+      <UniqueIdentifier>{b026a357-45d9-4246-bf5f-41bdab86e1fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\07.씬 매니저\01.씬\01.로고">
+      <UniqueIdentifier>{dce0cc95-d7ca-48df-805b-da4094934270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\07.씬 매니저\01.씬\02.메뉴">
+      <UniqueIdentifier>{ab3c9af8-dfc9-413e-8a19-46468ac4e19a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트">
+      <UniqueIdentifier>{2830d358-b384-4369-8430-e906eb966d7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\00.오브젝트">
+      <UniqueIdentifier>{68b901ae-b2da-4545-8837-9084e49ea822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\01.움직이는 오브젝트">
+      <UniqueIdentifier>{be0647f3-9440-49da-ab94-1841f2badaef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\02.움직이지 않는 오브젝트">
+      <UniqueIdentifier>{462b6a63-9065-4767-a7e5-076e312230cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\01.움직이는 오브젝트\00.움직이는 오브젝트">
+      <UniqueIdentifier>{64e98333-0cca-4ba4-9d0c-cb6fa1a89dcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\01.움직이는 오브젝트\01.플레이어">
+      <UniqueIdentifier>{be915e76-bde2-4097-b7f9-77310ee38208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\09.팩토리 매니저">
+      <UniqueIdentifier>{0f979620-c5a1-416d-8cdb-1b35a361cf8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\02.움직이지 않는 오브젝트\00.움직이지 않는 오브젝트">
+      <UniqueIdentifier>{1985cfb4-12ff-47a8-a374-ed1398015373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\02.움직이지 않는 오브젝트\01.버튼">
+      <UniqueIdentifier>{d8c0caa0-cfd1-4446-851b-9471e72482eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\10.물리 매니저">
+      <UniqueIdentifier>{66419472-9a62-490c-9722-999a4dcadd4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\02.움직이지 않는 오브젝트\02.레이어">
+      <UniqueIdentifier>{ca78a543-f79e-4ce2-8d39-b31371928fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\01.움직이는 오브젝트\03.배경 오브젝트">
+      <UniqueIdentifier>{ed8b1879-63cb-497f-8678-f78bde499d81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\03.타일">
+      <UniqueIdentifier>{ee9b335b-3131-4382-9da6-455aa1a67f8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\02.움직이지 않는 오브젝트\03.맵 오브젝트">
+      <UniqueIdentifier>{7107dca7-c288-45e0-a82d-0af4ce1cd2da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\11.카메라 매니저">
+      <UniqueIdentifier>{e69ff422-b8b9-4bea-b184-5dd4c510d5bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\01.움직이는 오브젝트\02.카메라용 가상객체">
+      <UniqueIdentifier>{ebf28404-65dc-4ff9-a26f-3904139f4ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\07.씬 매니저\01.씬\04.스테이지">
+      <UniqueIdentifier>{a8fe0bf9-20d2-4661-ba91-b3266dde90f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\07.씬 매니저\01.씬\03.마을">
+      <UniqueIdentifier>{3d973efc-c17f-4333-a962-92e8b3ce0204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\02.움직이지 않는 오브젝트\NewFilter1">
+      <UniqueIdentifier>{d68a7294-a449-40a6-af7b-a4d4049a0760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\02.움직이지 않는 오브젝트\02.레이어\00.기본 레이어">
+      <UniqueIdentifier>{63489eb6-a21c-4b80-a70a-b0d4291aa6a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\02.움직이지 않는 오브젝트\02.레이어\01.확장 레이어">
+      <UniqueIdentifier>{8ccd295c-4ab5-4dee-b18e-d62455adac55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\12.인벤토리">
+      <UniqueIdentifier>{65791a46-1601-4b14-aad2-ea6da82e0a11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\04.아이템">
+      <UniqueIdentifier>{f24e263e-67ec-4903-8006-33de5bf07e21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\04.아이템\01.무기">
+      <UniqueIdentifier>{c95cde9a-4f9d-4360-9fbb-a66bc8328942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\04.아이템\00.아이템">
+      <UniqueIdentifier>{104dd41e-c273-4c73-b4e7-54fd6f36b8da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\12.인벤토리\00.인벤토리">
+      <UniqueIdentifier>{a1c60ee9-ddd2-4026-8247-a203bd182b49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\12.인벤토리\01.인벤토리 아이템">
+      <UniqueIdentifier>{b0d326ed-e0fd-4353-8076-60808d52f868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\12.인벤토리\02.인벤토리 구성">
+      <UniqueIdentifier>{a6d04675-9a06-45e7-a5de-be85fd7e2892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\04.아이템\01.무기\00.무기">
+      <UniqueIdentifier>{4566eda3-d614-4735-9632-bff3d72daa12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\04.아이템\01.무기\01.칼">
+      <UniqueIdentifier>{5d9b623b-ce2d-4a71-89f8-70d22a19e5b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\04.아이템\01.무기\01.칼\01.베이직 소드">
+      <UniqueIdentifier>{9e91d3a0-6cea-4d8f-a5eb-24ea88c0f730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\04.아이템\01.무기\01.칼\00.칼 틀">
+      <UniqueIdentifier>{dd816e91-f86d-4460-8674-c2430c03c20e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\04.아이템\03.월드맵 아이템">
+      <UniqueIdentifier>{aeae3db2-9d6e-4ada-8809-b1a30d3a760f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\05.이펙트">
+      <UniqueIdentifier>{0aaa9e1d-15c4-46c5-8973-065d83c35786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\05.이펙트\00.일반 이펙트">
+      <UniqueIdentifier>{ae1331f7-70fe-4fc1-aca2-06aa98cb1ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\05.이펙트\01.충돌 이펙트">
+      <UniqueIdentifier>{d719037d-5b52-4747-b838-94caf6a9a31c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\01.움직이는 오브젝트\04.몬스터">
+      <UniqueIdentifier>{476efa4d-c81d-49c7-902e-1cdee69a331c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\01.움직이는 오브젝트\04.몬스터\00.몬스터 틀">
+      <UniqueIdentifier>{3b3a562c-14c6-4c7d-8101-bd5e48de6e9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\01.움직이는 오브젝트\04.몬스터\01.근접 몬스터">
+      <UniqueIdentifier>{f14741a1-5094-4789-82f9-d76e3c23d931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\01.움직이는 오브젝트\04.몬스터\01.근접 몬스터\00.근접 몬스터 틀">
+      <UniqueIdentifier>{9f082ea3-761a-4998-98c9-36376e686420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\01.움직이는 오브젝트\04.몬스터\01.근접 몬스터\01.스켈레톤">
+      <UniqueIdentifier>{736a2349-cf7d-4528-b4c8-760f789e4ac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\01.움직이는 오브젝트\04.몬스터\02.원거리 몬스터">
+      <UniqueIdentifier>{183fd981-69db-4bf0-94f0-6609375837ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\01.움직이는 오브젝트\04.몬스터\02.원거리 몬스터\00.원거리 몬스터 틀">
+      <UniqueIdentifier>{3eed0a8d-541d-499e-96a3-884e2a409ea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\01.움직이는 오브젝트\04.몬스터\02.원거리 몬스터\01.아이스 메이지">
+      <UniqueIdentifier>{6f930c1a-26dd-461b-bd79-1ff4e0b4b720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\05.이펙트\02.총알소환 이펙트">
+      <UniqueIdentifier>{6f11b00e-a564-43c2-9f2d-36eb848aa461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\04.아이템\01.무기\01.칼\02.이빨칼">
+      <UniqueIdentifier>{6336e6e3-a857-4013-8e85-a42bc577a9bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\04.아이템\01.무기\02.총기">
+      <UniqueIdentifier>{0841cce6-37b0-4854-acdd-055d2d13fa28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\04.아이템\01.무기\03.카타나">
+      <UniqueIdentifier>{86a89747-6c2e-4606-9dd0-d29ff56b5de2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\05.이펙트\03.대쉬 이펙트">
+      <UniqueIdentifier>{1bcf5bf5-4329-4b31-9812-abb7c8c6efe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\01.움직이는 오브젝트\04.몬스터\01.근접 몬스터\02.큰 스켈레톤">
+      <UniqueIdentifier>{d3710232-cb92-4029-bab6-d4a2a1c1b04a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.공격감지 가상클래스">
+      <UniqueIdentifier>{1529abf7-aefe-4c27-930a-c7e9643b1a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\05.이펙트\04.랜더링 없는 충돌 이펙트">
+      <UniqueIdentifier>{bcf17e18-5fe0-4350-b7a4-eef1421447ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.쿨타임 오브젝트">
+      <UniqueIdentifier>{7c9623ba-35d8-4b94-9c0d-0c36417c875f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\06.UI">
+      <UniqueIdentifier>{3ae5fc99-8437-4944-b5fa-3dee119c0421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\07.총알">
+      <UniqueIdentifier>{12014dc1-6bc6-43ee-8c7e-0f3f3cc64995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\04.아이템\01.무기\02.총기\00.총기 틀">
+      <UniqueIdentifier>{ee594045-6e31-4534-8513-efbeaa0ab221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\04.아이템\01.무기\02.총기\01.헤카테">
+      <UniqueIdentifier>{202568f3-9444-4033-9a6b-100d6677f26b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\07.총알\00.기본 총알">
+      <UniqueIdentifier>{a717838c-ff2e-4420-b262-f0d6cab44504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\06.UI\00.몬스터 HP바">
+      <UniqueIdentifier>{c15b4941-3417-4e6e-9aaf-e148e010cfe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\06.UI\01.플레이어 UI">
+      <UniqueIdentifier>{61b68084-2b3b-4bff-aa55-ba7a1f0a0428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\06.UI\01.플레이어 UI\00.플레이어 UI">
+      <UniqueIdentifier>{596edfda-4207-420a-b040-2f5b53ebd9a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\06.UI\01.플레이어 UI\01.플레이어 HP">
+      <UniqueIdentifier>{12200a5c-14ed-4094-bf92-2cc33512eb2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\06.UI\01.플레이어 UI\02.플레이어 Dash">
+      <UniqueIdentifier>{513b38d8-cca8-42d2-8642-b5eefc7c5032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\06.UI\01.플레이어 UI\03.플레이어 무기">
+      <UniqueIdentifier>{efe2369a-c4f8-4c5a-bb9e-bc45c5216c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\06.UI\01.플레이어 UI\01.플레이어 HP\00.플레이어 HP">
+      <UniqueIdentifier>{f1427c8b-7991-4498-a765-1d92d7408d1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\06.UI\01.플레이어 UI\01.플레이어 HP\01.플레이어 HP Bar">
+      <UniqueIdentifier>{14244aee-d771-4a23-86ea-b9273f5447e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\06.UI\01.플레이어 UI\01.플레이어 HP\02.플레이어 HP Wave">
+      <UniqueIdentifier>{3e250d68-0f01-4676-b25a-8608588c57e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\06.UI\01.플레이어 UI\02.플레이어 Dash\00.대쉬 베이스">
+      <UniqueIdentifier>{99c380b3-d60e-42aa-9653-a602b0c4788f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\06.UI\01.플레이어 UI\02.플레이어 Dash\01.대쉬 이미지">
+      <UniqueIdentifier>{5523d172-87fd-4f7d-8b27-16f0bdfe13f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\07.씬 매니저\01.씬\04.스테이지\00.스테이지 0">
+      <UniqueIdentifier>{7b8356e7-ba39-466a-844d-4b8afa8f19f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\07.씬 매니저\01.씬\04.스테이지\01.스테이지 1">
+      <UniqueIdentifier>{e40b58f9-ff7e-4b6b-8e52-c0d2d823f679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\07.씬 매니저\01.씬\04.스테이지\02.스테이지 2">
+      <UniqueIdentifier>{4375f398-dafb-4904-b246-376896bed40e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\05.이펙트\05.몬스터 소환 이펙트">
+      <UniqueIdentifier>{968a1dec-b562-421f-80ec-29247173def5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\04.아이템\02.상자">
+      <UniqueIdentifier>{4900db4c-145a-404e-b64a-e0956aa4ed14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\04.아이템\02.상자\00.박스 틀">
+      <UniqueIdentifier>{a2a2cd1d-41ec-49f9-adc5-4dad3ce88cf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\04.아이템\02.상자\01.기본 박스">
+      <UniqueIdentifier>{04641e39-732a-4274-b5a5-d32b0d0482d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\08.맵 방지턱">
+      <UniqueIdentifier>{341cdec1-8337-4b13-ba59-960eb472d921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\08.맵 방지턱\00.객체">
+      <UniqueIdentifier>{617a395f-b9d5-4e5d-9df8-9505fa1b8832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\08.맵 방지턱\01.생성 이펙트">
+      <UniqueIdentifier>{18a98390-7046-43ac-80cc-ab5e5b9cc500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\08.맵 방지턱\02.삭제 이펙트">
+      <UniqueIdentifier>{b29fefba-0384-4e5f-8d44-65a89127d2f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\09.페어리">
+      <UniqueIdentifier>{695602ec-17fe-4bc2-b6b1-d691bf8078d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\10.문">
+      <UniqueIdentifier>{c10f8361-ded7-4145-8d88-275365fd920b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\09.페어리\00.페어리 기본 틀">
+      <UniqueIdentifier>{049b2fa3-43ee-43ce-8278-88aad2dfe6cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\09.페어리\01.작은 페어리">
+      <UniqueIdentifier>{b1a83678-3bfb-428b-8987-6875a38abc37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\09.페어리\02.중간 페어리">
+      <UniqueIdentifier>{03bd681b-b2a8-431f-b8a3-15a8a3310aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\09.페어리\03.큰 페어리">
+      <UniqueIdentifier>{3852fa93-5f03-48a0-9747-0cd511b5f0fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\09.페어리\04.뚱뚱한 페어리">
+      <UniqueIdentifier>{8d07b437-6937-487d-8638-1b0ff4bf7409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\11.스파이크 타일">
+      <UniqueIdentifier>{63cda8ac-f6cc-484d-b100-65c735066e07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\12.공중 부양 오브젝트">
+      <UniqueIdentifier>{58a8c4ea-2ea8-4e14-915a-6c97588a0571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\01.움직이는 오브젝트\04.몬스터\02.원거리 몬스터\02.밴시">
+      <UniqueIdentifier>{7ea5694f-21db-4df3-afd7-aff2704b0e56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\07.총알\02.아이스 총알">
+      <UniqueIdentifier>{7fbfabe3-f292-478c-9115-61f7e7caa1eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\07.총알\03.밴시 총알">
+      <UniqueIdentifier>{e315cc75-5a5e-482d-b4fa-1d5cb95fdba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\07.총알\01.플레이어 총알">
+      <UniqueIdentifier>{39de7590-d1c7-4a5b-bdc1-ca2a5f1b3c59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\05.이펙트\06.스킬 스켈레톤 스킬 이펙트">
+      <UniqueIdentifier>{7ced911e-b578-4d0b-b321-e84b6261c31c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\05.이펙트\07.히트 이펙트">
+      <UniqueIdentifier>{d63215d6-e3a6-4969-8019-2a36e9639687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\13.피격 화면 이펙트">
+      <UniqueIdentifier>{445693d3-c791-4723-8ce3-bee1fbf7dde5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\07.씬 매니저\01.씬\04.스테이지\03.스테이지 3">
+      <UniqueIdentifier>{38f91daa-d90f-4a77-b814-6c21f3f78ee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스">
+      <UniqueIdentifier>{b59d61e0-b1ca-475e-b7b2-d1f2bef8d6a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\00.니플헤임">
+      <UniqueIdentifier>{c428bdd1-541b-4585-9fbf-e433882c5631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\01.소환 이펙트">
+      <UniqueIdentifier>{b6d420be-18bd-4431-9e1e-1300bb5c393f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\02.다잉 이펙트">
+      <UniqueIdentifier>{548da097-f275-4949-926e-c453543c359f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\03.Hp UI">
+      <UniqueIdentifier>{3d3a6d62-3564-4e74-9be7-ef8262f8fc03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\03.Hp UI\00.HP 베이스">
+      <UniqueIdentifier>{059aaa13-6bc1-4410-9cb6-2935830d0858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\03.Hp UI\01.HP 바">
+      <UniqueIdentifier>{939cf9a1-bb69-48e7-a445-1cb49945a12d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\05.이펙트\08.보스 경고 이펙트">
+      <UniqueIdentifier>{8f89e7ab-7eb1-4ad0-8802-09abe4341609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\07.총알\04.아이시클">
+      <UniqueIdentifier>{cb34ba18-7e85-457e-846c-4af5e8ee12b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\05.이펙트\09.총알 소환 이펙트">
+      <UniqueIdentifier>{094ea003-ac2a-4ff2-bf9b-5d228cff8e1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\05.이펙트\09.총알 소환 이펙트\00.아이시클">
+      <UniqueIdentifier>{5c8ce924-6560-4354-aaab-879338aa4163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\04.공전 객체">
+      <UniqueIdentifier>{e836fe08-0b48-4f6e-ac53-17406c2b6c74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\04.공전 객체\00.아이스 필러">
+      <UniqueIdentifier>{36a0a75f-4f66-4fc2-80e8-5c05e60f22b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\04.공전 객체\01.아이스 필러 생성">
+      <UniqueIdentifier>{acfcc221-66ba-4085-802f-aefb44161fd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\05.아이스 스피어">
+      <UniqueIdentifier>{17c6c9b6-de48-4a4b-a3cf-fdb5fd1a37c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\05.아이스 스피어\00.이펙트">
+      <UniqueIdentifier>{4f8c19d9-81c9-4aa6-8986-392bd23fcb82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\05.아이스 스피어\01.객체">
+      <UniqueIdentifier>{8ad7dc35-6d13-4cd7-90ac-0740d4d81867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\14.사운드 매니저">
+      <UniqueIdentifier>{bb42f823-d5ae-486f-813e-577ab40ee548}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D2DDungreed.h">
+      <Filter>99.필수파일\00.엔트리 포인트</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.필수파일\02.미리 컴파일된 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.필수파일\01.리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.필수파일\01.리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CallSingleton.h">
+      <Filter>98.매니저\99.싱글턴모음</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\Window\MyWindow.h">
+      <Filter>99.필수파일\04.윈도우</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\MainGame\MainGame.h">
+      <Filter>00.메인 게임</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\TimeMgr\TimeMgr.h">
+      <Filter>98.매니저\00.시간 매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\FrameMgr\FrameMgr.h">
+      <Filter>98.매니저\01.프레임 매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\DeviceMgr\DirectMgr.h">
+      <Filter>98.매니저\02.장치 매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\KeyMgr\KeyMgr.h">
+      <Filter>98.매니저\03.키 매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\TextureMgr\TextureMgr.h">
+      <Filter>98.매니저\08.텍스처 매니저\99.텍스처 매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\TextureMgr\Texture.h">
+      <Filter>98.매니저\08.텍스처 매니저\00.텍스처\00. 텍스처</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\TextureMgr\SingleTexture.h">
+      <Filter>98.매니저\08.텍스처 매니저\00.텍스처\01.싱글 텍스처</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\TextureMgr\MultiTexture.h">
+      <Filter>98.매니저\08.텍스처 매니저\00.텍스처\02.멀티 텍스처</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\SceneMgr\SceneMgr.h">
+      <Filter>98.매니저\07.씬 매니저\00.씬 매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\SceneMgr\Scene.h">
+      <Filter>98.매니저\07.씬 매니저\01.씬\00.씬</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\SceneMgr\Logo.h">
+      <Filter>98.매니저\07.씬 매니저\01.씬\01.로고</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\SceneMgr\Menu.h">
+      <Filter>98.매니저\07.씬 매니저\01.씬\02.메뉴</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\MathMgr\MathMgr.h">
+      <Filter>98.매니저\04.수학 매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\MouseMgr\MouseMgr.h">
+      <Filter>98.매니저\05.마우스 매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\ObjectMgr\ObjectMgr.h">
+      <Filter>98.매니저\06.오브젝트 매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\GameObject.h">
+      <Filter>01.오브젝트\00.오브젝트</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\MoveObject.h">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\00.움직이는 오브젝트</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Player.h">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\01.플레이어</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\ObjectFactory\ObjectFactory.h">
+      <Filter>98.매니저\09.팩토리 매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\NonMoveObject.h">
+      <Filter>01.오브젝트\02.움직이지 않는 오브젝트\00.움직이지 않는 오브젝트</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Button\MyButton.h">
+      <Filter>01.오브젝트\02.움직이지 않는 오브젝트\01.버튼</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\PhysicMgr\Physic.h">
+      <Filter>98.매니저\10.물리 매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\MoveBackgroundObject\MoveBackgroundObject.h">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\03.배경 오브젝트</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Terrain\Terrain.h">
+      <Filter>01.오브젝트\03.타일</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\CameraMgr\CameraMgr.h">
+      <Filter>98.매니저\11.카메라 매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\UnseenObject\UnseenObject.h">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\02.카메라용 가상객체</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\SceneMgr\Village.h">
+      <Filter>98.매니저\07.씬 매니저\01.씬\03.마을</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Layer\MyLayer.h">
+      <Filter>01.오브젝트\02.움직이지 않는 오브젝트\02.레이어\00.기본 레이어</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Layer\LargeLayer.h">
+      <Filter>01.오브젝트\02.움직이지 않는 오브젝트\02.레이어\01.확장 레이어</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\BaseItem.h">
+      <Filter>01.오브젝트\04.아이템\00.아이템</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\InventoryMgr\InventoryItem.h">
+      <Filter>98.매니저\12.인벤토리\01.인벤토리 아이템</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\InventoryMgr\Inventory.h">
+      <Filter>98.매니저\12.인벤토리\00.인벤토리</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\InventoryMgr\InventoryRender.h">
+      <Filter>98.매니저\12.인벤토리\02.인벤토리 구성</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\Weapon.h">
+      <Filter>01.오브젝트\04.아이템\01.무기\00.무기</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\Sword.h">
+      <Filter>01.오브젝트\04.아이템\01.무기\01.칼\00.칼 틀</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\BasicSword.h">
+      <Filter>01.오브젝트\04.아이템\01.무기\01.칼\01.베이직 소드</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\ItemInWorldMap.h">
+      <Filter>01.오브젝트\04.아이템\03.월드맵 아이템</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\Effect.h">
+      <Filter>01.오브젝트\05.이펙트\00.일반 이펙트</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster\Monster.h">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\00.몬스터 틀</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\NormalAttackEffect.h">
+      <Filter>01.오브젝트\05.이펙트\01.충돌 이펙트</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster\MeleeMonster.h">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\01.근접 몬스터\00.근접 몬스터 틀</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster\RangeMonster.h">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\02.원거리 몬스터\00.원거리 몬스터 틀</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster\SkelIceMagician.h">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\02.원거리 몬스터\01.아이스 메이지</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\BulletMakeEffect.h">
+      <Filter>01.오브젝트\05.이펙트\02.총알소환 이펙트</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster\Skel.h">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\01.근접 몬스터\01.스켈레톤</Filter>
+    </ClInclude>
+    <ClInclude Include="CoolTime\CoolTime.h">
+      <Filter>02.쿨타임 오브젝트</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\DashEffect.h">
+      <Filter>01.오브젝트\05.이펙트\03.대쉬 이펙트</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster\BigGraySkel.h">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\01.근접 몬스터\02.큰 스켈레톤</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster\BigWhiteSkel.h">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\01.근접 몬스터\01.스켈레톤</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster\Rect.h">
+      <Filter>03.공격감지 가상클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\NoRenderEffect.h">
+      <Filter>01.오브젝트\05.이펙트\04.랜더링 없는 충돌 이펙트</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\BasicGun.h">
+      <Filter>01.오브젝트\04.아이템\01.무기\02.총기\00.총기 틀</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\Hecate.h">
+      <Filter>01.오브젝트\04.아이템\01.무기\02.총기\01.헤카테</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Bullet\IceBullet.h">
+      <Filter>01.오브젝트\07.총알\02.아이스 총알</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\UI\MonsterHPUI.h">
+      <Filter>01.오브젝트\06.UI\00.몬스터 HP바</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\UI\PlayerHP.h">
+      <Filter>01.오브젝트\06.UI\01.플레이어 UI\01.플레이어 HP\00.플레이어 HP</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\UI\PlayerHpBar.h">
+      <Filter>01.오브젝트\06.UI\01.플레이어 UI\01.플레이어 HP\01.플레이어 HP Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\UI\PlayerHpWave.h">
+      <Filter>01.오브젝트\06.UI\01.플레이어 UI\01.플레이어 HP\02.플레이어 HP Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\UI\PlayerUI.h">
+      <Filter>01.오브젝트\06.UI\01.플레이어 UI\00.플레이어 UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\UI\PlayerDash.h">
+      <Filter>01.오브젝트\06.UI\01.플레이어 UI\02.플레이어 Dash\00.대쉬 베이스</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\UI\PlayerDashImage.h">
+      <Filter>01.오브젝트\06.UI\01.플레이어 UI\02.플레이어 Dash\01.대쉬 이미지</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage\Stage0.h">
+      <Filter>98.매니저\07.씬 매니저\01.씬\04.스테이지\00.스테이지 0</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage\Stage1.h">
+      <Filter>98.매니저\07.씬 매니저\01.씬\04.스테이지\01.스테이지 1</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage\Stage2.h">
+      <Filter>98.매니저\07.씬 매니저\01.씬\04.스테이지\02.스테이지 2</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\SummonEffect.h">
+      <Filter>01.오브젝트\05.이펙트\05.몬스터 소환 이펙트</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\Box.h">
+      <Filter>01.오브젝트\04.아이템\02.상자\00.박스 틀</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\BasicBox.h">
+      <Filter>01.오브젝트\04.아이템\02.상자\01.기본 박스</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Block\BlockObject.h">
+      <Filter>01.오브젝트\08.맵 방지턱\00.객체</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Block\SealEffect.h">
+      <Filter>01.오브젝트\08.맵 방지턱\01.생성 이펙트</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Block\SealClose.h">
+      <Filter>01.오브젝트\08.맵 방지턱\02.삭제 이펙트</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Door\Door.h">
+      <Filter>01.오브젝트\10.문</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Fairy\Fairy.h">
+      <Filter>01.오브젝트\09.페어리\00.페어리 기본 틀</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Fairy\SmallFairy.h">
+      <Filter>01.오브젝트\09.페어리\01.작은 페어리</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Fairy\MiddleFairy.h">
+      <Filter>01.오브젝트\09.페어리\02.중간 페어리</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Fairy\LargeFairy.h">
+      <Filter>01.오브젝트\09.페어리\03.큰 페어리</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Fairy\XLargeFairy.h">
+      <Filter>01.오브젝트\09.페어리\04.뚱뚱한 페어리</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Spike\SpikeObject.h">
+      <Filter>01.오브젝트\11.스파이크 타일</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FloatingObject\FloatingObject.h">
+      <Filter>01.오브젝트\12.공중 부양 오브젝트</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster\Banshee.h">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\02.원거리 몬스터\02.밴시</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Bullet\BansheeBullet.h">
+      <Filter>01.오브젝트\07.총알\03.밴시 총알</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Bullet\Bullet.h">
+      <Filter>01.오브젝트\07.총알\01.플레이어 총알</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Bullet\BulletBase.h">
+      <Filter>01.오브젝트\07.총알\00.기본 총알</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\NoRenderIceBulletSummon.h">
+      <Filter>01.오브젝트\05.이펙트\06.스킬 스켈레톤 스킬 이펙트</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\HitEffect.h">
+      <Filter>01.오브젝트\05.이펙트\07.히트 이펙트</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\HitScreen\HitScreen.h">
+      <Filter>98.매니저\13.피격 화면 이펙트</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage\Stage3.h">
+      <Filter>98.매니저\07.씬 매니저\01.씬\04.스테이지\03.스테이지 3</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster\Boss.h">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\00.니플헤임</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\NiffleHeimSummon.h">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\01.소환 이펙트</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\NifleHeimDieEffect.h">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\02.다잉 이펙트</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\UI\BossHP.h">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\03.Hp UI\00.HP 베이스</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\UI\BossHPBar.h">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\03.Hp UI\01.HP 바</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\MissileWarningEffect.h">
+      <Filter>01.오브젝트\05.이펙트\08.보스 경고 이펙트</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Bullet\Icicle.h">
+      <Filter>01.오브젝트\07.총알\04.아이시클</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Bullet\IcicleSummon.h">
+      <Filter>01.오브젝트\05.이펙트\09.총알 소환 이펙트\00.아이시클</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster\IcePillar.h">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\04.공전 객체\00.아이스 필러</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\IcePillarCreate.h">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\04.공전 객체\01.아이스 필러 생성</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\IceSpearEffect.h">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\05.아이스 스피어\00.이펙트</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Bullet\IceSpear.h">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\05.아이스 스피어\01.객체</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>98.매니저\14.사운드 매니저</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D2DDungreed.cpp">
+      <Filter>99.필수파일\00.엔트리 포인트</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.필수파일\02.미리 컴파일된 헤더</Filter>
+    </ClCompile>
+    <ClCompile Include="CallSingleton.cpp">
+      <Filter>98.매니저\99.싱글턴모음</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\Window\MyWindow.cpp">
+      <Filter>99.필수파일\04.윈도우</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\MainGame\MainGame.cpp">
+      <Filter>00.메인 게임</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\TimeMgr\TimeMgr.cpp">
+      <Filter>98.매니저\00.시간 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\FrameMgr\FrameMgr.cpp">
+      <Filter>98.매니저\01.프레임 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\DeviceMgr\DirectMgr.cpp">
+      <Filter>98.매니저\02.장치 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\KeyMgr\KeyMgr.cpp">
+      <Filter>98.매니저\03.키 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\TextureMgr\TextureMgr.cpp">
+      <Filter>98.매니저\08.텍스처 매니저\99.텍스처 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\TextureMgr\Texture.cpp">
+      <Filter>98.매니저\08.텍스처 매니저\00.텍스처\00. 텍스처</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\TextureMgr\SingleTexture.cpp">
+      <Filter>98.매니저\08.텍스처 매니저\00.텍스처\01.싱글 텍스처</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\TextureMgr\MultiTexture.cpp">
+      <Filter>98.매니저\08.텍스처 매니저\00.텍스처\02.멀티 텍스처</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\SceneMgr\SceneMgr.cpp">
+      <Filter>98.매니저\07.씬 매니저\00.씬 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\SceneMgr\Scene.cpp">
+      <Filter>98.매니저\07.씬 매니저\01.씬\00.씬</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\SceneMgr\Logo.cpp">
+      <Filter>98.매니저\07.씬 매니저\01.씬\01.로고</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\SceneMgr\Menu.cpp">
+      <Filter>98.매니저\07.씬 매니저\01.씬\02.메뉴</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\MathMgr\MathMgr.cpp">
+      <Filter>98.매니저\04.수학 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\MouseMgr\MouseMgr.cpp">
+      <Filter>98.매니저\05.마우스 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\ObjectMgr\ObjectMgr.cpp">
+      <Filter>98.매니저\06.오브젝트 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\GameObject.cpp">
+      <Filter>01.오브젝트\00.오브젝트</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\MoveObject.cpp">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\00.움직이는 오브젝트</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Player.cpp">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\01.플레이어</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\NonMoveObject.cpp">
+      <Filter>01.오브젝트\02.움직이지 않는 오브젝트\00.움직이지 않는 오브젝트</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Button\MyButton.cpp">
+      <Filter>01.오브젝트\02.움직이지 않는 오브젝트\01.버튼</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\PhysicMgr\Physic.cpp">
+      <Filter>98.매니저\10.물리 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\MoveBackgroundObject\MoveBackgroundObject.cpp">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\03.배경 오브젝트</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Terrain\Terrain.cpp">
+      <Filter>01.오브젝트\03.타일</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\CameraMgr\CameraMgr.cpp">
+      <Filter>98.매니저\11.카메라 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\UnseenObject\UnseenObject.cpp">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\02.카메라용 가상객체</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\SceneMgr\Village.cpp">
+      <Filter>98.매니저\07.씬 매니저\01.씬\03.마을</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Layer\MyLayer.cpp">
+      <Filter>01.오브젝트\02.움직이지 않는 오브젝트\02.레이어\00.기본 레이어</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Layer\LargeLayer.cpp">
+      <Filter>01.오브젝트\02.움직이지 않는 오브젝트\02.레이어\01.확장 레이어</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\BaseItem.cpp">
+      <Filter>01.오브젝트\04.아이템\00.아이템</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\InventoryMgr\InventoryItem.cpp">
+      <Filter>98.매니저\12.인벤토리\01.인벤토리 아이템</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\InventoryMgr\Inventory.cpp">
+      <Filter>98.매니저\12.인벤토리\00.인벤토리</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\InventoryMgr\InventoryRender.cpp">
+      <Filter>98.매니저\12.인벤토리\02.인벤토리 구성</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\Weapon.cpp">
+      <Filter>01.오브젝트\04.아이템\01.무기\00.무기</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\Sword.cpp">
+      <Filter>01.오브젝트\04.아이템\01.무기\01.칼\00.칼 틀</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\BasicSword.cpp">
+      <Filter>01.오브젝트\04.아이템\01.무기\01.칼\01.베이직 소드</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\ItemInWorldMap.cpp">
+      <Filter>01.오브젝트\04.아이템\03.월드맵 아이템</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\Effect.cpp">
+      <Filter>01.오브젝트\05.이펙트\00.일반 이펙트</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Monster\Monster.cpp">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\00.몬스터 틀</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\NormalAttackEffect.cpp">
+      <Filter>01.오브젝트\05.이펙트\01.충돌 이펙트</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Monster\MeleeMonster.cpp">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\01.근접 몬스터\00.근접 몬스터 틀</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Monster\RangeMonster.cpp">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\02.원거리 몬스터\00.원거리 몬스터 틀</Filter>
+    </ClCompile>
+    <ClCompile Include="SkelIceMagician.cpp">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\02.원거리 몬스터\01.아이스 메이지</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\BulletMakeEffect.cpp">
+      <Filter>01.오브젝트\05.이펙트\02.총알소환 이펙트</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Monster\Skel.cpp">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\01.근접 몬스터\01.스켈레톤</Filter>
+    </ClCompile>
+    <ClCompile Include="CoolTime\CoolTime.cpp">
+      <Filter>02.쿨타임 오브젝트</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\DashEffect.cpp">
+      <Filter>01.오브젝트\05.이펙트\03.대쉬 이펙트</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Monster\BigGraySkel.cpp">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\01.근접 몬스터\02.큰 스켈레톤</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Monster\BigWhiteSkel.cpp">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\01.근접 몬스터\01.스켈레톤</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Monster\Rect.cpp">
+      <Filter>03.공격감지 가상클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\NoRenderEffect.cpp">
+      <Filter>01.오브젝트\05.이펙트\04.랜더링 없는 충돌 이펙트</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\BasicGun.cpp">
+      <Filter>01.오브젝트\04.아이템\01.무기\02.총기\00.총기 틀</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\Hecate.cpp">
+      <Filter>01.오브젝트\04.아이템\01.무기\02.총기\01.헤카테</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Bullet\IceBullet.cpp">
+      <Filter>01.오브젝트\07.총알\02.아이스 총알</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\UI\MonsterHPUI.cpp">
+      <Filter>01.오브젝트\06.UI\00.몬스터 HP바</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\UI\PlayerUI.cpp">
+      <Filter>01.오브젝트\06.UI\01.플레이어 UI\00.플레이어 UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\UI\PlayerHP.cpp">
+      <Filter>01.오브젝트\06.UI\01.플레이어 UI\01.플레이어 HP\00.플레이어 HP</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\UI\PlayerHpBar.cpp">
+      <Filter>01.오브젝트\06.UI\01.플레이어 UI\01.플레이어 HP\01.플레이어 HP Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\UI\PlayerHpWave.cpp">
+      <Filter>01.오브젝트\06.UI\01.플레이어 UI\01.플레이어 HP\02.플레이어 HP Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\UI\PlayerDash.cpp">
+      <Filter>01.오브젝트\06.UI\01.플레이어 UI\02.플레이어 Dash\00.대쉬 베이스</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\UI\PlayerDashImage.cpp">
+      <Filter>01.오브젝트\06.UI\01.플레이어 UI\02.플레이어 Dash\01.대쉬 이미지</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage\Stage0.cpp">
+      <Filter>98.매니저\07.씬 매니저\01.씬\04.스테이지\00.스테이지 0</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage\Stage1.cpp">
+      <Filter>98.매니저\07.씬 매니저\01.씬\04.스테이지\01.스테이지 1</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage\Stage2.cpp">
+      <Filter>98.매니저\07.씬 매니저\01.씬\04.스테이지\02.스테이지 2</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\SummonEffect.cpp">
+      <Filter>01.오브젝트\05.이펙트\05.몬스터 소환 이펙트</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\Box.cpp">
+      <Filter>01.오브젝트\04.아이템\02.상자\00.박스 틀</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\BasicBox.cpp">
+      <Filter>01.오브젝트\04.아이템\02.상자\01.기본 박스</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Block\BlockObject.cpp">
+      <Filter>01.오브젝트\08.맵 방지턱\00.객체</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Block\SealEffect.cpp">
+      <Filter>01.오브젝트\08.맵 방지턱\01.생성 이펙트</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Block\SealClose.cpp">
+      <Filter>01.오브젝트\08.맵 방지턱\02.삭제 이펙트</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Door\Door.cpp">
+      <Filter>01.오브젝트\10.문</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Fairy\Fairy.cpp">
+      <Filter>01.오브젝트\09.페어리\00.페어리 기본 틀</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Fairy\SmallFairy.cpp">
+      <Filter>01.오브젝트\09.페어리\01.작은 페어리</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Fairy\MiddleFairy.cpp">
+      <Filter>01.오브젝트\09.페어리\02.중간 페어리</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Fairy\LargeFairy.cpp">
+      <Filter>01.오브젝트\09.페어리\03.큰 페어리</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Fairy\XLargeFairy.cpp">
+      <Filter>01.오브젝트\09.페어리\04.뚱뚱한 페어리</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Spike\SpikeObject.cpp">
+      <Filter>01.오브젝트\11.스파이크 타일</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FloatingObject\FloatingObject.cpp">
+      <Filter>01.오브젝트\12.공중 부양 오브젝트</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Monster\Banshee.cpp">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\02.원거리 몬스터\02.밴시</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Bullet\BansheeBullet.cpp">
+      <Filter>01.오브젝트\07.총알\03.밴시 총알</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Bullet\Bullet.cpp">
+      <Filter>01.오브젝트\07.총알\01.플레이어 총알</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Bullet\BulletBase.cpp">
+      <Filter>01.오브젝트\07.총알\00.기본 총알</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\NoRenderIceBulletSummon.cpp">
+      <Filter>01.오브젝트\05.이펙트\06.스킬 스켈레톤 스킬 이펙트</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\HitEffect.cpp">
+      <Filter>01.오브젝트\05.이펙트\07.히트 이펙트</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\HitScreen\HitScreen.cpp">
+      <Filter>98.매니저\13.피격 화면 이펙트</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage3.cpp">
+      <Filter>98.매니저\07.씬 매니저\01.씬\04.스테이지\03.스테이지 3</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Monster\Boss.cpp">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\00.니플헤임</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\NiffleHeimSummon.cpp">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\01.소환 이펙트</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\NifleHeimDieEffect.cpp">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\02.다잉 이펙트</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\UI\BossHP.cpp">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\03.Hp UI\00.HP 베이스</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\UI\BossHPBar.cpp">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\03.Hp UI\01.HP 바</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\MissileWarningEffect.cpp">
+      <Filter>01.오브젝트\05.이펙트\08.보스 경고 이펙트</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Bullet\Icicle.cpp">
+      <Filter>01.오브젝트\07.총알\04.아이시클</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Bullet\IcicleSummon.cpp">
+      <Filter>01.오브젝트\05.이펙트\09.총알 소환 이펙트\00.아이시클</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Monster\IcePillar.cpp">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\04.공전 객체\00.아이스 필러</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\IcePillarCreate.cpp">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\04.공전 객체\01.아이스 필러 생성</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\IceSpearEffect.cpp">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\05.아이스 스피어\00.이펙트</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Bullet\IceSpear.cpp">
+      <Filter>01.오브젝트\01.움직이는 오브젝트\04.몬스터\03.보스\05.아이스 스피어\01.객체</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>98.매니저\14.사운드 매니저</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="D2DDungreed.ico">
+      <Filter>99.필수파일\01.리소스 파일</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99.필수파일\01.리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D2DDungreed.rc">
+      <Filter>99.필수파일\01.리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.필수파일\03.읽어</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

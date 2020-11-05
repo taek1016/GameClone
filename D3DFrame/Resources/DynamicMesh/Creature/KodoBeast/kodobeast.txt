@@ -1,0 +1,6 @@
+Stand		199	279
+Run		107	139
+Walk		3	47
+Attack		429	474
+Hit		339	369
+Death		534	609

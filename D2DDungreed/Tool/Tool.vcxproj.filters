@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.필수 파일">
+      <UniqueIdentifier>{ea4b190d-0391-49c8-bb8a-3af9fcdc816a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.필수 파일\00.리소스 파일">
+      <UniqueIdentifier>{586d1a57-aced-4cc6-a66f-19541dcd0174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.앤트리 포인트">
+      <UniqueIdentifier>{7b1a7e30-2c8f-4dcf-b29c-e2b51ea1fa3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.도큐먼트">
+      <UniqueIdentifier>{d8226e60-5e3d-46a2-a607-84274493eed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.메인 프레임">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="02.뷰">
+      <UniqueIdentifier>{a2ab436f-500d-42fe-82d8-68e7ccecaf5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저">
+      <UniqueIdentifier>{7c6fa9a4-3e44-4e82-919e-00165fa2054a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\00.매니저 모음">
+      <UniqueIdentifier>{9b496aa5-1e35-4d20-baf1-58f40cb30c32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\02.시간 매니저">
+      <UniqueIdentifier>{0ed2d79c-a94d-4ec8-86ec-b91f192d8dcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\03.프레임 매니저">
+      <UniqueIdentifier>{1bf6c6d0-f6fe-4dd6-81f4-6ec48c7dc6d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\01.장치 매니저">
+      <UniqueIdentifier>{f0659150-a7d3-4c65-86a6-5986bcf52eba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.필수 파일\01.미리 컴파일된 헤더">
+      <UniqueIdentifier>{0cc949e9-ab80-46b9-8d42-0f33cb1a0508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\04.키 매니저">
+      <UniqueIdentifier>{8b889b65-3a92-4280-a264-5e334beec4a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\05.수학 매니저">
+      <UniqueIdentifier>{1233d364-b932-410a-afbf-38a901793304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\06.마우스 매니저">
+      <UniqueIdentifier>{6d1397aa-619b-4947-8b91-fbc43a2ec387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\07.카메라 매니저">
+      <UniqueIdentifier>{5736413d-bf21-434b-b426-93cf1e60bb48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\08.텍스처 매니저">
+      <UniqueIdentifier>{9d5a6a28-631a-4c28-a4fe-7da1bfa1d657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\08.텍스처 매니저\00.텍스처 매니저">
+      <UniqueIdentifier>{6dea32e6-4ccf-4694-9dee-6c5c2e91d00b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\08.텍스처 매니저\01.텍스처">
+      <UniqueIdentifier>{7cddc50a-7ac9-41d0-aac2-03c726373091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\08.텍스처 매니저\01.텍스처\00.텍스처">
+      <UniqueIdentifier>{d2abf515-dd80-4280-bcb4-1486f939b272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\08.텍스처 매니저\01.텍스처\01.싱글 텍스처">
+      <UniqueIdentifier>{45f916e3-a72a-4260-bb31-44d06ae960f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\08.텍스처 매니저\01.텍스처\02. 멀티 텍스처">
+      <UniqueIdentifier>{ffcdeb4c-5936-4ead-8f74-4139d90401b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.오브젝트">
+      <UniqueIdentifier>{d4a1b085-2218-4271-b176-12e7e8f99bf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.오브젝트\00.게임 오브젝트">
+      <UniqueIdentifier>{bc10494e-b977-4472-9f50-120ff6acffd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.오브젝트\01.맵">
+      <UniqueIdentifier>{0d99daab-6c14-4d21-91c4-8add899f24fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.뷰\00.툴 뷰">
+      <UniqueIdentifier>{5024e7fa-0444-48d7-8357-302d2390b31c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.뷰\01.내 폼">
+      <UniqueIdentifier>{c56aece9-391b-42e6-9a4a-9a059a274151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.뷰\02.미니 뷰">
+      <UniqueIdentifier>{b09c5155-dfba-44c2-9f3c-9bcf645d77e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.다이얼로그">
+      <UniqueIdentifier>{604ec4e4-a4b7-4dc0-bb62-d2472791c7b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.다이얼로그\00.맵 툴">
+      <UniqueIdentifier>{b4cecbfe-76bf-4fb0-839d-57e48f70982a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.오브젝트\02.카메라용 오브젝트">
+      <UniqueIdentifier>{9209faad-fd93-4e75-8c5e-50e71fc9de4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.매니저\09.디렉토리 매니저">
+      <UniqueIdentifier>{64bf0818-7ed7-4c73-a4f1-2ecf4925f8d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.다이얼로그\01.오브젝트 툴">
+      <UniqueIdentifier>{c9d21a4b-607e-4cc5-b33b-6ffb2a5b9a00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.다이얼로그\02.유닛 툴">
+      <UniqueIdentifier>{ae174399-7764-423a-b332-58f770aafa95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.다이얼로그\03.패스 툴">
+      <UniqueIdentifier>{b1dad68a-466d-491f-86a6-342abb4db9c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.오브젝트\03.배경오브젝트">
+      <UniqueIdentifier>{a94da012-23f5-4486-8cb5-07a1bee64793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.쿨타임">
+      <UniqueIdentifier>{224c113f-aa3f-4511-8819-1de0dd16472c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tool.h">
+      <Filter>00.앤트리 포인트</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolDoc.h">
+      <Filter>01.도큐먼트</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>02.메인 프레임</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.필수 파일\00.리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.필수 파일\01.미리 컴파일된 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.필수 파일\01.미리 컴파일된 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D2DDungreed\Managers\DeviceMgr\DirectMgr.h">
+      <Filter>98.매니저\01.장치 매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D2DDungreed\Managers\TimeMgr\TimeMgr.h">
+      <Filter>98.매니저\02.시간 매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D2DDungreed\Managers\FrameMgr\FrameMgr.h">
+      <Filter>98.매니저\03.프레임 매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D2DDungreed\Managers\KeyMgr\KeyMgr.h">
+      <Filter>98.매니저\04.키 매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D2DDungreed\Managers\MathMgr\MathMgr.h">
+      <Filter>98.매니저\05.수학 매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D2DDungreed\Managers\MouseMgr\MouseMgr.h">
+      <Filter>98.매니저\06.마우스 매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D2DDungreed\Managers\CameraMgr\CameraMgr.h">
+      <Filter>98.매니저\07.카메라 매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D2DDungreed\Managers\TextureMgr\TextureMgr.h">
+      <Filter>98.매니저\08.텍스처 매니저\00.텍스처 매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D2DDungreed\Managers\TextureMgr\Texture.h">
+      <Filter>98.매니저\08.텍스처 매니저\01.텍스처\00.텍스처</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D2DDungreed\Managers\TextureMgr\SingleTexture.h">
+      <Filter>98.매니저\08.텍스처 매니저\01.텍스처\01.싱글 텍스처</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D2DDungreed\Managers\TextureMgr\MultiTexture.h">
+      <Filter>98.매니저\08.텍스처 매니저\01.텍스처\02. 멀티 텍스처</Filter>
+    </ClInclude>
+    <ClInclude Include="CallManagers.h">
+      <Filter>98.매니저\00.매니저 모음</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D2DDungreed\Object\Terrain\Terrain.h">
+      <Filter>03.오브젝트\01.맵</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D2DDungreed\Object\GameObject.h">
+      <Filter>03.오브젝트\00.게임 오브젝트</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolView.h">
+      <Filter>02.뷰\00.툴 뷰</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm.h">
+      <Filter>02.뷰\01.내 폼</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniView.h">
+      <Filter>02.뷰\02.미니 뷰</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTool.h">
+      <Filter>04.다이얼로그\02.유닛 툴</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D2DDungreed\Object\UnseenObject\UnseenObject.h">
+      <Filter>03.오브젝트\02.카메라용 오브젝트</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D2DDungreed\Object\MoveObject.h">
+      <Filter>03.오브젝트\00.게임 오브젝트</Filter>
+    </ClInclude>
+    <ClInclude Include="Map_Tool.h">
+      <Filter>04.다이얼로그\00.맵 툴</Filter>
+    </ClInclude>
+    <ClInclude Include="PathTool.h">
+      <Filter>04.다이얼로그\03.패스 툴</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectoryMgr.h">
+      <Filter>98.매니저\09.디렉토리 매니저</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundObjectTool.h">
+      <Filter>04.다이얼로그\01.오브젝트 툴</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D2DDungreed\Object\MoveBackgroundObject\MoveBackgroundObject.h">
+      <Filter>03.오브젝트\03.배경오브젝트</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D2DDungreed\CoolTime\CoolTime.h">
+      <Filter>05.쿨타임</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>02.메인 프레임</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool.cpp">
+      <Filter>00.앤트리 포인트</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolDoc.cpp">
+      <Filter>01.도큐먼트</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.필수 파일\01.미리 컴파일된 헤더</Filter>
+    </ClCompile>
+    <ClCompile Include="..\D2DDungreed\Managers\DeviceMgr\DirectMgr.cpp">
+      <Filter>98.매니저\01.장치 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="..\D2DDungreed\Managers\TimeMgr\TimeMgr.cpp">
+      <Filter>98.매니저\02.시간 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="..\D2DDungreed\Managers\FrameMgr\FrameMgr.cpp">
+      <Filter>98.매니저\03.프레임 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="..\D2DDungreed\Managers\KeyMgr\KeyMgr.cpp">
+      <Filter>98.매니저\04.키 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="..\D2DDungreed\Managers\MathMgr\MathMgr.cpp">
+      <Filter>98.매니저\05.수학 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="..\D2DDungreed\Managers\MouseMgr\MouseMgr.cpp">
+      <Filter>98.매니저\06.마우스 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="..\D2DDungreed\Managers\CameraMgr\CameraMgr.cpp">
+      <Filter>98.매니저\07.카메라 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="..\D2DDungreed\Managers\TextureMgr\TextureMgr.cpp">
+      <Filter>98.매니저\08.텍스처 매니저\00.텍스처 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="..\D2DDungreed\Managers\TextureMgr\Texture.cpp">
+      <Filter>98.매니저\08.텍스처 매니저\01.텍스처\00.텍스처</Filter>
+    </ClCompile>
+    <ClCompile Include="..\D2DDungreed\Managers\TextureMgr\SingleTexture.cpp">
+      <Filter>98.매니저\08.텍스처 매니저\01.텍스처\01.싱글 텍스처</Filter>
+    </ClCompile>
+    <ClCompile Include="..\D2DDungreed\Managers\TextureMgr\MultiTexture.cpp">
+      <Filter>98.매니저\08.텍스처 매니저\01.텍스처\02. 멀티 텍스처</Filter>
+    </ClCompile>
+    <ClCompile Include="CallManagers.cpp">
+      <Filter>98.매니저\00.매니저 모음</Filter>
+    </ClCompile>
+    <ClCompile Include="..\D2DDungreed\Object\Terrain\Terrain.cpp">
+      <Filter>03.오브젝트\01.맵</Filter>
+    </ClCompile>
+    <ClCompile Include="..\D2DDungreed\Object\GameObject.cpp">
+      <Filter>03.오브젝트\00.게임 오브젝트</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolView.cpp">
+      <Filter>02.뷰\00.툴 뷰</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>02.뷰\01.내 폼</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniView.cpp">
+      <Filter>02.뷰\02.미니 뷰</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTool.cpp">
+      <Filter>04.다이얼로그\02.유닛 툴</Filter>
+    </ClCompile>
+    <ClCompile Include="..\D2DDungreed\Object\UnseenObject\UnseenObject.cpp">
+      <Filter>03.오브젝트\02.카메라용 오브젝트</Filter>
+    </ClCompile>
+    <ClCompile Include="..\D2DDungreed\Object\MoveObject.cpp">
+      <Filter>03.오브젝트\00.게임 오브젝트</Filter>
+    </ClCompile>
+    <ClCompile Include="Map_Tool.cpp">
+      <Filter>04.다이얼로그\00.맵 툴</Filter>
+    </ClCompile>
+    <ClCompile Include="PathTool.cpp">
+      <Filter>04.다이얼로그\03.패스 툴</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectoryMgr.cpp">
+      <Filter>98.매니저\09.디렉토리 매니저</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundObjectTool.cpp">
+      <Filter>04.다이얼로그\01.오브젝트 툴</Filter>
+    </ClCompile>
+    <ClCompile Include="..\D2DDungreed\Object\MoveBackgroundObject\MoveBackgroundObject.cpp">
+      <Filter>03.오브젝트\03.배경오브젝트</Filter>
+    </ClCompile>
+    <ClCompile Include="..\D2DDungreed\CoolTime\CoolTime.cpp">
+      <Filter>05.쿨타임</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Tool.ico">
+      <Filter>99.필수 파일\00.리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99.필수 파일\00.리소스 파일</Filter>
+    </Image>
+    <Image Include="res\ToolDoc.ico">
+      <Filter>99.필수 파일\00.리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc">
+      <Filter>99.필수 파일\00.리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tool.rc2">
+      <Filter>99.필수 파일\00.리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+</Project>

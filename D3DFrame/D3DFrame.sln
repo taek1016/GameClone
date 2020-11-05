@@ -1,0 +1,93 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "Client\Default\Client.vcxproj", "{0DE4865B-101F-46B4-A2F9-B2887F69EE84}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BAC9541D-8C83-4FA3-A5BD-6DB234AE2F92} = {BAC9541D-8C83-4FA3-A5BD-6DB234AE2F92}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "Engine\Default\Engine.vcxproj", "{BAC9541D-8C83-4FA3-A5BD-6DB234AE2F92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. Base", "00. Base", "{01608B30-BBD5-4750-8412-79F72CA51DEE}"
+	ProjectSection(SolutionItems) = preProject
+		Base\Base.h = Base\Base.h
+		Base\Base.inl = Base\Base.inl
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tool", "Tool\Default\Tool.vcxproj", "{150668D1-643F-414A-9ECC-A0C9E3EC2534}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BAC9541D-8C83-4FA3-A5BD-6DB234AE2F92} = {BAC9541D-8C83-4FA3-A5BD-6DB234AE2F92}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Headers", "01. Headers", "{3196D506-9ACE-4E4E-B39B-D00C38A5A365}"
+	ProjectSection(SolutionItems) = preProject
+		Header\Public_Define.h = Header\Public_Define.h
+		Header\Public_Struct.h = Header\Public_Struct.h
+		Header\Struct_FileInfo.h = Header\Struct_FileInfo.h
+		Header\Struct_ObjectInfo.h = Header\Struct_ObjectInfo.h
+		Header\Struct_Sort.h = Header\Struct_Sort.h
+		Header\Struct_UnitInfo.h = Header\Struct_UnitInfo.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Shaders", "02. Shaders", "{5C4672D9-71D0-41DE-8C84-433B76618274}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. GeneralHpp", "00. GeneralHpp", "{7D63EFFA-3319-4219-B2CA-437FCEE81DD0}"
+	ProjectSection(SolutionItems) = preProject
+		Shaders\Shader_Base.hpp = Shaders\Shader_Base.hpp
+		Shaders\Shader_Font.hpp = Shaders\Shader_Font.hpp
+		Shaders\Shader_Liquid.hpp = Shaders\Shader_Liquid.hpp
+		Shaders\Shader_Mesh.hpp = Shaders\Shader_Mesh.hpp
+		Shaders\Shader_Sample.hpp = Shaders\Shader_Sample.hpp
+		Shaders\Shader_Terrain.hpp = Shaders\Shader_Terrain.hpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. DeferredHpp", "01. DeferredHpp", "{97377801-7CC4-4377-8FB6-9FD694CE2840}"
+	ProjectSection(SolutionItems) = preProject
+		Shaders\Shader_Blend.hpp = Shaders\Shader_Blend.hpp
+		Shaders\Shader_Effect.hpp = Shaders\Shader_Effect.hpp
+		Shaders\Shader_Light.hpp = Shaders\Shader_Light.hpp
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DE4865B-101F-46B4-A2F9-B2887F69EE84}.Debug|x64.ActiveCfg = Debug|x64
+		{0DE4865B-101F-46B4-A2F9-B2887F69EE84}.Debug|x64.Build.0 = Debug|x64
+		{0DE4865B-101F-46B4-A2F9-B2887F69EE84}.Debug|x86.ActiveCfg = Debug|Win32
+		{0DE4865B-101F-46B4-A2F9-B2887F69EE84}.Debug|x86.Build.0 = Debug|Win32
+		{0DE4865B-101F-46B4-A2F9-B2887F69EE84}.Release|x64.ActiveCfg = Release|x64
+		{0DE4865B-101F-46B4-A2F9-B2887F69EE84}.Release|x64.Build.0 = Release|x64
+		{0DE4865B-101F-46B4-A2F9-B2887F69EE84}.Release|x86.ActiveCfg = Release|Win32
+		{0DE4865B-101F-46B4-A2F9-B2887F69EE84}.Release|x86.Build.0 = Release|Win32
+		{BAC9541D-8C83-4FA3-A5BD-6DB234AE2F92}.Debug|x64.ActiveCfg = Debug|x64
+		{BAC9541D-8C83-4FA3-A5BD-6DB234AE2F92}.Debug|x64.Build.0 = Debug|x64
+		{BAC9541D-8C83-4FA3-A5BD-6DB234AE2F92}.Debug|x86.ActiveCfg = Debug|Win32
+		{BAC9541D-8C83-4FA3-A5BD-6DB234AE2F92}.Debug|x86.Build.0 = Debug|Win32
+		{BAC9541D-8C83-4FA3-A5BD-6DB234AE2F92}.Release|x64.ActiveCfg = Release|x64
+		{BAC9541D-8C83-4FA3-A5BD-6DB234AE2F92}.Release|x64.Build.0 = Release|x64
+		{BAC9541D-8C83-4FA3-A5BD-6DB234AE2F92}.Release|x86.ActiveCfg = Release|Win32
+		{BAC9541D-8C83-4FA3-A5BD-6DB234AE2F92}.Release|x86.Build.0 = Release|Win32
+		{150668D1-643F-414A-9ECC-A0C9E3EC2534}.Debug|x64.ActiveCfg = Debug|x64
+		{150668D1-643F-414A-9ECC-A0C9E3EC2534}.Debug|x64.Build.0 = Debug|x64
+		{150668D1-643F-414A-9ECC-A0C9E3EC2534}.Debug|x86.ActiveCfg = Debug|Win32
+		{150668D1-643F-414A-9ECC-A0C9E3EC2534}.Debug|x86.Build.0 = Debug|Win32
+		{150668D1-643F-414A-9ECC-A0C9E3EC2534}.Release|x64.ActiveCfg = Release|x64
+		{150668D1-643F-414A-9ECC-A0C9E3EC2534}.Release|x64.Build.0 = Release|x64
+		{150668D1-643F-414A-9ECC-A0C9E3EC2534}.Release|x86.ActiveCfg = Release|Win32
+		{150668D1-643F-414A-9ECC-A0C9E3EC2534}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D63EFFA-3319-4219-B2CA-437FCEE81DD0} = {5C4672D9-71D0-41DE-8C84-433B76618274}
+		{97377801-7CC4-4377-8FB6-9FD694CE2840} = {5C4672D9-71D0-41DE-8C84-433B76618274}
+	EndGlobalSection
+EndGlobal

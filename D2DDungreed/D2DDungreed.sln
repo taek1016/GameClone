@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "D2DDungreed", "D2DDungreed\D2DDungreed.vcxproj", "{931EB3B8-E609-4FDE-9A54-1BDB16B05463}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00.필수헤더", "00.필수헤더", "{205089DE-A3DC-4EBB-A6CE-C42EE2BDA16D}"
+	ProjectSection(SolutionItems) = preProject
+		Headers\Define.h = Headers\Define.h
+		Headers\enum.h = Headers\enum.h
+		Headers\function.h = Headers\function.h
+		Headers\Headers.h = Headers\Headers.h
+		Headers\struct.h = Headers\struct.h
+		Headers\Typedef.h = Headers\Typedef.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tool", "Tool\Tool.vcxproj", "{8C525783-E0C5-4AA0-ACA6-D0A6F1919322}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{931EB3B8-E609-4FDE-9A54-1BDB16B05463}.Debug|x64.ActiveCfg = Debug|x64
+		{931EB3B8-E609-4FDE-9A54-1BDB16B05463}.Debug|x64.Build.0 = Debug|x64
+		{931EB3B8-E609-4FDE-9A54-1BDB16B05463}.Debug|x86.ActiveCfg = Debug|Win32
+		{931EB3B8-E609-4FDE-9A54-1BDB16B05463}.Debug|x86.Build.0 = Debug|Win32
+		{931EB3B8-E609-4FDE-9A54-1BDB16B05463}.Release|x64.ActiveCfg = Release|x64
+		{931EB3B8-E609-4FDE-9A54-1BDB16B05463}.Release|x64.Build.0 = Release|x64
+		{931EB3B8-E609-4FDE-9A54-1BDB16B05463}.Release|x86.ActiveCfg = Release|Win32
+		{931EB3B8-E609-4FDE-9A54-1BDB16B05463}.Release|x86.Build.0 = Release|Win32
+		{931EB3B8-E609-4FDE-9A54-1BDB16B05463}.Release|x86.Deploy.0 = Release|Win32
+		{8C525783-E0C5-4AA0-ACA6-D0A6F1919322}.Debug|x64.ActiveCfg = Debug|x64
+		{8C525783-E0C5-4AA0-ACA6-D0A6F1919322}.Debug|x64.Build.0 = Debug|x64
+		{8C525783-E0C5-4AA0-ACA6-D0A6F1919322}.Debug|x86.ActiveCfg = Debug|Win32
+		{8C525783-E0C5-4AA0-ACA6-D0A6F1919322}.Debug|x86.Build.0 = Debug|Win32
+		{8C525783-E0C5-4AA0-ACA6-D0A6F1919322}.Release|x64.ActiveCfg = Release|x64
+		{8C525783-E0C5-4AA0-ACA6-D0A6F1919322}.Release|x64.Build.0 = Release|x64
+		{8C525783-E0C5-4AA0-ACA6-D0A6F1919322}.Release|x86.ActiveCfg = Release|Win32
+		{8C525783-E0C5-4AA0-ACA6-D0A6F1919322}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

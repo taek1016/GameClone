@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C5664D33-DF9E-4EF5-B3CA-E1B9C37D10D7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Engine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>../Bin\</OutDir>
+    <IncludePath>$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../Bin\</OutDir>
+    <IncludePath>$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;ENGINE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../../Base;../Code/Utility;../Code/System;../Code/Resources;../Code;../Default;../Header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;dinput8.lib;dinput8.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+    <PostBuildEvent>
+      <Command>cd /d $(SolutionDir)
+call CopyEngine.bat</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;ENGINE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;ENGINE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../../Base;../Code;../Default;../Header;../Code/Resources;../Code/System;../Code/Utility;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;dinput8.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+    <PostBuildEvent>
+      <Command>cd /d $(SolutionDir)
+call CopyEngine.bat</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;ENGINE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Code\CameraMgr.h" />
+    <ClInclude Include="..\Code\CObjContainerMgr.h" />
+    <ClInclude Include="..\Code\CollisionMgr.h" />
+    <ClInclude Include="..\Code\Component.h" />
+    <ClInclude Include="..\Code\DirectInput.h" />
+    <ClInclude Include="..\Code\FontMgr.h" />
+    <ClInclude Include="..\Code\FrameMgr.h" />
+    <ClInclude Include="..\Code\GameObject.h" />
+    <ClInclude Include="..\Code\GraphicDev.h" />
+    <ClInclude Include="..\Code\KeyMgr.h" />
+    <ClInclude Include="..\Code\Management.h" />
+    <ClInclude Include="..\Code\MouseMgr.h" />
+    <ClInclude Include="..\Code\ObjectMgr.h" />
+    <ClInclude Include="..\Code\PoolMgr.h" />
+    <ClInclude Include="..\Code\Renderer.h" />
+    <ClInclude Include="..\Code\ResourcesMgr.h" />
+    <ClInclude Include="..\Code\Resources\CubeTex.h" />
+    <ClInclude Include="..\Code\Resources\RcCol.h" />
+    <ClInclude Include="..\Code\Resources\Resources.h" />
+    <ClInclude Include="..\Code\Resources\RcTex.h" />
+    <ClInclude Include="..\Code\Resources\TerrainTex.h" />
+    <ClInclude Include="..\Code\Resources\Texture.h" />
+    <ClInclude Include="..\Code\Resources\TriCol.h" />
+    <ClInclude Include="..\Code\Resources\VIBuffer.h" />
+    <ClInclude Include="..\Code\Scene.h" />
+    <ClInclude Include="..\Code\SearchMgr.h" />
+    <ClInclude Include="..\Code\System\Frame.h" />
+    <ClInclude Include="..\Code\System\ObjectController.h" />
+    <ClInclude Include="..\Code\System\Search.h" />
+    <ClInclude Include="..\Code\System\Timer.h" />
+    <ClInclude Include="..\Code\TimerMgr.h" />
+    <ClInclude Include="..\Code\Transform.h" />
+    <ClInclude Include="..\Code\Utility\ArmorBase.h" />
+    <ClInclude Include="..\Code\Utility\Camera.h" />
+    <ClInclude Include="..\Code\Utility\Collider.h" />
+    <ClInclude Include="..\Code\Utility\Controller.h" />
+    <ClInclude Include="..\Code\Utility\Cube.h" />
+    <ClInclude Include="..\Code\Utility\InstallBase.h" />
+    <ClInclude Include="..\Code\Utility\ItemBase.h" />
+    <ClInclude Include="..\Code\Utility\MatrialBase.h" />
+    <ClInclude Include="..\Code\Utility\Mouse.h" />
+    <ClInclude Include="..\Code\Utility\Rigidbody.h" />
+    <ClInclude Include="..\Code\Utility\Sphere.h" />
+    <ClInclude Include="..\Code\Utility\UsableBase.h" />
+    <ClInclude Include="..\Code\Utility\WeaponBase.h" />
+    <ClInclude Include="..\Header\Engine_Defines.h" />
+    <ClInclude Include="..\Header\Engine_Entry.h" />
+    <ClInclude Include="..\Header\Engine_Enum.h" />
+    <ClInclude Include="..\Header\Engine_Function.h" />
+    <ClInclude Include="..\Header\Engine_Macro.h" />
+    <ClInclude Include="..\Header\Engine_Struct.h" />
+    <ClInclude Include="..\Header\Engine_Typedef.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Header\Engine_Entry.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Code\CameraMgr.cpp" />
+    <ClCompile Include="..\Code\CObjContainerMgr.cpp" />
+    <ClCompile Include="..\Code\CollisionMgr.cpp" />
+    <ClCompile Include="..\Code\Component.cpp" />
+    <ClCompile Include="..\Code\DirectInput.cpp" />
+    <ClCompile Include="..\Code\FontMgr.cpp" />
+    <ClCompile Include="..\Code\FrameMgr.cpp" />
+    <ClCompile Include="..\Code\GameObject.cpp" />
+    <ClCompile Include="..\Code\GraphicDev.cpp" />
+    <ClCompile Include="..\Code\KeyMgr.cpp" />
+    <ClCompile Include="..\Code\Management.cpp" />
+    <ClCompile Include="..\Code\MouseMgr.cpp" />
+    <ClCompile Include="..\Code\ObjectMgr.cpp" />
+    <ClCompile Include="..\Code\PoolMgr.cpp" />
+    <ClCompile Include="..\Code\Renderer.cpp" />
+    <ClCompile Include="..\Code\ResourcesMgr.cpp" />
+    <ClCompile Include="..\Code\Resources\CubeTex.cpp" />
+    <ClCompile Include="..\Code\Resources\RcCol.cpp" />
+    <ClCompile Include="..\Code\Resources\Resources.cpp" />
+    <ClCompile Include="..\Code\Resources\RcTex.cpp" />
+    <ClCompile Include="..\Code\Resources\TerrainTex.cpp" />
+    <ClCompile Include="..\Code\Resources\Texture.cpp" />
+    <ClCompile Include="..\Code\Resources\TriCol.cpp" />
+    <ClCompile Include="..\Code\Resources\VIBuffer.cpp" />
+    <ClCompile Include="..\Code\Scene.cpp" />
+    <ClCompile Include="..\Code\SearchMgr.cpp" />
+    <ClCompile Include="..\Code\System\Frame.cpp" />
+    <ClCompile Include="..\Code\System\ObjectController.cpp" />
+    <ClCompile Include="..\Code\System\Search.cpp" />
+    <ClCompile Include="..\Code\System\Timer.cpp" />
+    <ClCompile Include="..\Code\TimerMgr.cpp" />
+    <ClCompile Include="..\Code\Transform.cpp" />
+    <ClCompile Include="..\Code\Utility\ArmorBase.cpp" />
+    <ClCompile Include="..\Code\Utility\Camera.cpp" />
+    <ClCompile Include="..\Code\Utility\Collider.cpp" />
+    <ClCompile Include="..\Code\Utility\Controller.cpp" />
+    <ClCompile Include="..\Code\Utility\Cube.cpp" />
+    <ClCompile Include="..\Code\Utility\InstallBase.cpp" />
+    <ClCompile Include="..\Code\Utility\ItemBase.cpp" />
+    <ClCompile Include="..\Code\Utility\MatrialBase.cpp" />
+    <ClCompile Include="..\Code\Utility\Mouse.cpp" />
+    <ClCompile Include="..\Code\Utility\Rigidbody.cpp" />
+    <ClCompile Include="..\Code\Utility\Sphere.cpp" />
+    <ClCompile Include="..\Code\Utility\UsableBase.cpp" />
+    <ClCompile Include="..\Code\Utility\WeaponBase.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
